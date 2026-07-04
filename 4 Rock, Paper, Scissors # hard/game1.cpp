@@ -1,6 +1,7 @@
 #include <iostream> 
 #include <string> //libreria per aggiunegere le variabili con testo
 #include <cstdlib> // per generare numeri randomici ci vogliono le seguenti due libreriea
+#include <ctime>
 
 using namespace std;
 
