@@ -30,7 +30,6 @@ string Scelta_pc() {
 
 /*
 Qui invece determina velocemente la logica di sasso carta forbici, è molto logico
-
 */
 string logica(string utente, string PC) {
     if (utente == PC)  {
@@ -74,9 +73,7 @@ int main() {
 
         */
         string pc = Scelta_pc();
-        cout << "il pc ha scelto: ";
-
-        cout << pc << endl;
+        cout << "il pc ha scelto: "<< pc << endl;
 
         cout << logica(User, pc) << endl;
 
