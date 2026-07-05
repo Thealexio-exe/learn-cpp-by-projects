@@ -2,7 +2,7 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
-#include <fstream>
+#include <fstream> // aggiungiamo questa libreria per manipolare file esterni
 
 using namespace std;
 
@@ -14,8 +14,8 @@ int pareggi = 0;
 
 // in questa fuznione  il programma va a cercare il file statistiche.txt, dove al suo interno ci sarammo scritte le tre variabili 
 void caricaStatistiche() {
-    ifstream file("statistiche.txt"); // ifstream crea e legge
-    if (file.is_open()) {
+    ifstream file("statistiche.txt"); // ifstream legge e cerca
+    if (file.is_open()) { // se lo trova legge le variabili
         file >> vittorie >> pareggi >> sconfitte; 
         file.close();
     }
@@ -26,7 +26,7 @@ ogni volta che si fa un raund si utilizza una funzione che aggiorna il file scri
 semplicemte guarda quanto valgono le tre variabili globari 
 */ 
 void salvaStatistiche() {
-    ofstream file("statistiche.txt"); // ofstream legge e scrive
+    ofstream file("statistiche.txt"); // ofstream crea o modifica
     if (file.is_open()) {
         file << vittorie << " " << pareggi << " " << sconfitte;
         file.close();
@@ -46,47 +46,45 @@ string logica(string utente, string pc) {
     if (utente == pc)  {
         pareggi += 1;
         return "pareggio";
-    }
-    else if ((utente == "sasso" && pc == "forbici") ||
-             (utente == "carta" && pc == "sasso") ||
-             (utente == "forbici" && pc == "carta") ) {
+
+    } else if ( (utente == "sasso" && pc == "forbici") ||
+                (utente == "carta" && pc == "sasso") ||
+                (utente == "forbici" && pc == "carta") ) {
         vittorie += 1;
         return "Hai vinto";
-    }
-    else if (utente == "pistola") {
-        vittorie -= 1;
-        return "bro veramente, ti tolgo una vittoria per questo";   
-    } 
-    else {
+
+    } else {
         sconfitte += 1;
         return "Hai perso";   
     }
 }
 
 int main() {
-    caricaStatistiche();
+    caricaStatistiche(); // prima cosa caricare se ci sono le tre variabili
 
     cout << "gioca a sasso carta forbici, credo che sia inutile che ti spiegi come funziona." << endl;
 
     while (true) {
-        string user;
+        string user = "";
+
         while (true) {
             cout << "fai la tua scelta" << endl;
             cin >> user;
 
-            if (user == "sasso" || user == "carta" || user == "forbici" || user == "pistola") {
+            // ho aggiunto un po di cose facili da capire
+            if (user == "sasso" || user == "carta" || user == "forbici") {
                 break;
             } else if (user == "stop") {
-                salvaStatistiche();
+
                 return 0;
+
             } else if (user == "reset") {
-                vittorie = 0;
-                pareggi = 0;
-                sconfitte = 0;
+                vittorie = 0, pareggi = 0, sconfitte = 0;
+
                 salvaStatistiche();
                 cout << "statistiche azzerate: (Vittorie: " << vittorie << " ) (Pareggi: " << pareggi << " ) (Sconfitte: " << sconfitte << " ) " << endl;
+
             } else if (user == "statistiche"){
-                salvaStatistiche();
                 cout << "(Vittorie: " << vittorie << " ) (Pareggi: " << pareggi << " ) (Sconfitte: " << sconfitte << " ) " << endl;
             } else {
                 cout << "scrivi in maniera corretta" << endl;
@@ -98,8 +96,8 @@ int main() {
 
         cout << logica(user, pc) << endl;
 
-        salvaStatistiche();
+        salvaStatistiche();  // qui ogni volta salva e poi fa veredere i risultati
 
         cout << "statistiche: (Vittorie: " << vittorie << " ) (Pareggi: " << pareggi << " ) (Sconfitte: " << sconfitte << " ) " << endl;
-    }
+    } // prova diverse volte questo programma
 }
