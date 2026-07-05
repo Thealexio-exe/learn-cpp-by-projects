@@ -4,17 +4,23 @@
 #include <ctime>
 #include <fstream> 
 
+// NOTA: Se sei su Visual Studio Code, ti consiglio di disattivare gli errori così rendi il tutto più difficile.
+// Ti avverto subito questo file è un po' un caos di errori, fallo solo se hai tempo ed esperinza
+
 /*
-In questo fix_me è una semplificazione di game1 e game2, ci sono un po di problemi, li ho elecati qui sotto:
+In questo fix_me c'è una semplificazione di game1 e game2.
+Ci sono diversi problemi, li ho elencati qui sotto:
 
-- 2 bug sintassi/logica
+- 3 bug di sintassi/logica
 - 1 errore di logica nel while
-- 2 errori nelle funzioni di carica dati (1 di sintassi e uno più estetico)
-- 3 errori nelle varibili (consiglio studia bene il concetto di variabile globale)
-- 1 errore nascosto
+- 1 errore nascosto (consiglio: prima risolvi tutti i problemi e poi fai vari test per capire cosa non va)
 
-se sei su visual studio code ti consiglio di disattivare gli errori cosi rendi il tutto più difficile
-*/ 
+Correggi questi solo se hai imparato a usare fstream, altrimenti usa le soluzioni.
+Nel README ho diviso le soluzioni in "soluzione 1" e "soluzione 2".
+
+- 2 errori nelle funzioni di caricamento dati (1 di sintassi e uno più “estetico”)
+- 3 errori nelle variabili (consiglio: studia bene il concetto di variabile globale)
+*/
 
 using namespace std;
 

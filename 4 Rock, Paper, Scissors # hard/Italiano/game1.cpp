@@ -1,22 +1,19 @@
 #include <iostream> 
-#include <string> //libreria per aggiunegere le variabili con testo
-#include <cstdlib> // per generare numeri randomici ci vogliono le seguenti due libreriea
+#include <string> // Libreria per aggiungere variabili di testo.
+#include <cstdlib> // Per generare numeri casuali servono le seguenti due librerie.
 #include <ctime>
 
 using namespace std;
 
-// variabile globale
-int vittorie = 0;
-
-// se non sai usare le funzioni gurdati un video youtube perchè questo programma ha solo funzioni 
+// Se non sai usare le funzioni, guardati un video su YouTube, perché questo programma usa solo funzioni.
 
 /*
-In questa funzione fa le seguenti cose:
+In questa funzione vengono fatte le seguenti cose:
 
-- rand serve per generare nuemeri randomici 
-- srand a rigenrarli se no il numero randomico non cambierebbe
-- il risulato del numero randomico determina risultato della funzione
-- con un return la funzione ha fatto la sua scelta
+- rand serve per generare numeri casuali.
+- srand serve a rigenerarli, altrimenti il numero casuale non cambierebbe.
+- Il risultato del numero casuale determina il risultato della funzione.
+- Con un return la funzione restituisce la sua scelta.
 
 */
 string Scelta_pc() {
@@ -29,7 +26,8 @@ string Scelta_pc() {
 }
 
 /*
-Qui invece determina velocemente la logica di sasso carta forbici, è molto logico
+Qui invece viene gestita la logica di sasso, carta, forbici.
+È molto semplice da capire se sai suare bene gli if.
 */
 string logica(string utente, string PC) {
     if (utente == PC)  {
@@ -39,41 +37,43 @@ string logica(string utente, string PC) {
              (utente == "carta" && PC == "sasso") ||
              (utente == "forbici" && PC == "carta") ) {
         return "Hai vinto";
-    }else {
+    } else {
         return "Hai perso";   
     }
 }
 
 int main() {
 
-    cout << "gioca a sasso carta forbici, credo che sia inutile che ti spiegi come funziona." << endl;
+    cout << "Gioca a sasso, carta, forbici" << endl;
 
-    // un while true per rendere il programma giocabile all'infinito
+    // Un while(true) per rendere il programma giocabile all'infinito.
     while (true) {
         string User = "";
 
         while (true) {
-            cout << "fai la tua scelta" << endl;
+            cout << "Fai la tua scelta:" << endl;
             cin >> User;
 
             if (User == "sasso" || User == "carta" || User == "forbici") {
                 break;
-            }else if (User == "stop") {
+
+            } else if (User == "stop") {
                 return 0;
-            }else {
-                cout << "scrivi in maniera corretta" << endl;
+                
+            } else {
+                cout << "Scrivi una scelta corretta." << endl;
             }
         }
 
         /*
-        qui usiamo le funzioni create in precedenza:
+        Qui usiamo le funzioni create in precedenza:
 
-        - la prima da il valore scelto casualmente alla variabile pc
-        - la seconda prende le due variabili e sceglie chi ha vinto
+        - La prima assegna alla variabile pc una scelta casuale.
+        - La seconda prende le due variabili e decide chi ha vinto.
 
         */
         string pc = Scelta_pc();
-        cout << "il pc ha scelto: "<< pc << endl;
+        cout << "Il PC ha scelto: " << pc << endl;
 
         cout << logica(User, pc) << endl;
 
