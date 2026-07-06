@@ -8,6 +8,7 @@ Nel primo viene spiegato semplicemente come creare e come funziona Sasso Carta F
 
 Ti lascio anche alcuni link alla documentazione online:
 
+- <a href="https://www.w3schools.com/cpp/cpp_functions.asp">Studio funzioni</a>
 - <a href="https://www.w3schools.com/cpp/cpp_strings.asp">Libreria string</a>
 - <a href="https://www.w3schools.com/cpp/cpp_howto_random_number.asp">Libreria cstdlib</a>
 - <a href="https://www.w3schools.com/cpp/ref_ctime_time.asp">Libreria ctime</a>

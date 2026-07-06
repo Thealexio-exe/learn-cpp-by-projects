@@ -1,81 +1,83 @@
+```cpp
 #include <iostream> 
-#include <string> //libreria per aggiunegere le variabili con testo
-#include <cstdlib> // per generare numeri randomici ci vogliono le seguenti due libreriea
+#include <string> // Library for using string variables.
+#include <cstdlib> // These two libraries are needed to generate random numbers.
 #include <ctime>
 
 using namespace std;
 
-// variabile globale
-int vittorie = 0;
-
-// se non sai usare le funzioni gurdati un video youtube perchè questo programma ha solo funzioni 
+// If you don't know how to use functions, watch a YouTube video because this program only uses functions.
 
 /*
-In questa funzione fa le seguenti cose:
+This function does the following:
 
-- rand serve per generare nuemeri randomici 
-- srand a rigenrarli se no il numero randomico non cambierebbe
-- il risulato del numero randomico determina risultato della funzione
-- con un return la funzione ha fatto la sua scelta
+- rand is used to generate random numbers.
+- srand is used to regenerate them, otherwise the random number would not change.
+- The random number determines the function's result.
+- With a return, the function returns its choice.
 
 */
-string Scelta_pc() {
+string Pc_choice() {
     srand(time(NULL));
-    int random = rand()%4;
+    int random = rand()%3;
 
-    if (random == 0 ) return "sasso";
-    else if (random == 1 ) return "carta";
-    else return "forbici";
+    if (random == 0 ) return "rock";
+    else if (random == 1 ) return "paper";
+    else return "scissors";
 }
 
 /*
-Qui invece determina velocemente la logica di sasso carta forbici, è molto logico
+This function contains the logic of Rock, Paper, Scissors.
+It is very easy to understand if you know how to use if statements.
 */
-string logica(string utente, string PC) {
-    if (utente == PC)  {
-        return "pareggio";
+string logic(string user, string PC) {
+    if (user == PC)  {
+        return "draw";
     }
-    else if ((utente == "sasso" && PC == "forbici") ||
-             (utente == "carta" && PC == "sasso") ||
-             (utente == "forbici" && PC == "carta") ) {
-        return "Hai vinto";
-    }else {
-        return "Hai perso";   
+    else if ((user == "rock" && PC == "scissors") ||
+             (user == "paper" && PC == "rock") ||
+             (user == "scissors" && PC == "paper") ) {
+        return "You won";
+    } else {
+        return "You lost";   
     }
 }
 
 int main() {
 
-    cout << "gioca a sasso carta forbici, credo che sia inutile che ti spiegi come funziona." << endl;
+    cout << "Play Rock, Paper, Scissors" << endl;
 
-    // un while true per rendere il programma giocabile all'infinito
+    // A while(true) loop to make the game playable forever.
     while (true) {
         string User = "";
 
         while (true) {
-            cout << "fai la tua scelta" << endl;
+            cout << "Make your choice:" << endl;
             cin >> User;
 
-            if (User == "sasso" || User == "carta" || User == "forbici") {
+            if (User == "rock" || User == "paper" || User == "scissors") {
                 break;
-            }else if (User == "stop") {
+
+            } else if (User == "stop") {
                 return 0;
-            }else {
-                cout << "scrivi in maniera corretta" << endl;
+                
+            } else {
+                cout << "Enter a valid choice." << endl;
             }
         }
 
         /*
-        qui usiamo le funzioni create in precedenza:
+        Here we use the functions created earlier:
 
-        - la prima da il valore scelto casualmente alla variabile pc
-        - la seconda prende le due variabili e sceglie chi ha vinto
+        - The first one assigns a random choice to the pc variable.
+        - The second one takes the two variables and decides who won.
 
         */
-        string pc = Scelta_pc();
-        cout << "il pc ha scelto: "<< pc << endl;
+        string pc = Pc_choice();
+        cout << "The PC chose: " << pc << endl;
 
-        cout << logica(User, pc) << endl;
+        cout << logic(User, pc) << endl;
 
     }
 }
+```
