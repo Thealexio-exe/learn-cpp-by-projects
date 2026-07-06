@@ -55,5 +55,32 @@ Il secondo errore, e anche quello segreto, si trova sempre in `void Scelta_pc()`
 
 
 <details>
-    <summary>soluzioni 2</summary>
+<summary>soluzioni 2</summary>
+
+Ora gurdiamo meglio gli errori presenti:
+
+Il primo errore si trova nella funzione `void caricaStatistiche()`, Analiziamola meglio, come vede dall'esempio qui sotto puoi gia intravedere l'errore.
+
+```cpp
+void caricaStatistiche() {
+    ifstream file("statistiche.txt"); 
+    if (file.is_open()) { 
+        file << vittorie << pareggi << sconfitte; 
+        file.close();
+    }
+}
+```
+
+In ifstream il programma **legge e apre il file**, però nella linea `file << vittorie << pareggi << sconfitte;` c'è la l'errore principale, quando usi `<<` in c++ hanno un significato:
+- `<<` significa **output**
+- `>>` significa **input**
+
+e qui si crea il problema principale, tu stai diceno a `ifstream` che è un **input** di darli un **output**, questo è un errore di sintassi.
+
+---
+
+Il secondo errore è sempre collegato alle 
+
+
+
 </details>
