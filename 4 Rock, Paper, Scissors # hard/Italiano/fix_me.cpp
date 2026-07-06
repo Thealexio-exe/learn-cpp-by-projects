@@ -43,7 +43,7 @@ void salvaStatistiche() {
 
 void Scelta_pc() {
     srand(time(NULL))
-    int random = rand()%3;
+    int random = rand()%2;
 
     if (random == 0 ) return "sasso";
     else if (random == 1 ) return "carta";
