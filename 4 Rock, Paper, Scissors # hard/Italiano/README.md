@@ -1,10 +1,21 @@
 # Sasso carta forbici
 
 ## Introduzione:
-Questa volta ho fatto 2 versioni del file `game1.cpp`e `game2.cpp`, nel primo spiega semplicemente come creare e come funziona sasso carta farboci su cpp, attraverso funzioni, string e numeri casuali, succesivamente nel secondo sono state aggiunte due funzioni per manipolare file.txt e salvare le variabili al difuori del programma 
+
+Questa volta ho fatto 2 versioni del file `game1.cpp` e `game2.cpp`.
+
+Nel primo viene spiegato semplicemente come creare e come funziona Sasso Carta Forbici in C++, attraverso funzioni, string e numeri casuali. Successivamente, nel secondo, sono state aggiunte due funzioni per manipolare file `.txt` e salvare le variabili al di fuori del programma.
+
+Ti lascio anche alcuni link alla documentazione online:
+
+- <a href="https://www.w3schools.com/cpp/cpp_strings.asp">Libreria string</a>
+- <a href="https://www.w3schools.com/cpp/cpp_howto_random_number.asp">Libreria cstdlib</a>
+- <a href="https://www.w3schools.com/cpp/ref_ctime_time.asp">Libreria ctime</a>
+- <a href="https://www.w3schools.com/cpp/cpp_ref_fstream.asp">Libreria fstream</a>
 
 ## Soluzioni:
-Qui ti lascio subito le soluzioni del file `fix_me.cpp` le ho divise in soluzioni 1 (più facili) e soluzioni 2 (più difficili)
+
+Qui ti lascio subito le soluzioni del file `fix_me.cpp`. Le ho divise in **Soluzioni 1** (più facili) e **Soluzioni 2** (più difficili).
 
 <details>
 <summary>Soluzioni 1</summary>
@@ -33,7 +44,7 @@ void Scrivi_il_nome(int tot, string nome) {
 int Somma(int a, int b) {
 
     int somma = a + b;
-    cout << "La somma è uguale a: " << somma << endl;  
+    cout << "La somma è uguale a: " << somma << endl;
 
     return somma;
 }
@@ -45,21 +56,18 @@ int Somma(int a, int b) {
 
 Il secondo errore, e anche quello segreto, si trova sempre in `void Scelta_pc()`:
 
-- il primo è che `srand(time(NULL))` manca di un `;`, quindi è un errore banale ma comune;
-- il secondo si trova in `int random = rand()%3;`.
-  In informatica si parte sempre da `0` quando si conta, e proprio per questo non potrà mai uscire `forbici` come opzione. Per sistemare questo errore cambia `rand()%3;` con una di queste versioni:
+* il primo è che `srand(time(NULL))` manca di un `;`, quindi è un errore banale ma comune;
+* il secondo si trova in `int random = rand()%2;`.
+  In informatica si parte sempre da `0` quando si conta, e proprio per questo non potrà mai uscire `forbici` come opzione. Per sistemare questo errore cambia `rand()%2;` con questa versione: `rand()%3;`
 
-  - `rand()%4;`
-  - `rand()%3+1;`
 </details>
 
-
 <details>
-<summary>soluzioni 2</summary>
+<summary>Soluzioni 2</summary>
 
-Ora gurdiamo meglio gli errori presenti:
+Ora guardiamo meglio gli errori presenti.
 
-Il primo errore si trova nella funzione `void caricaStatistiche()`, Analiziamola meglio, come vede dall'esempio qui sotto puoi gia intravedere l'errore.
+Il primo errore si trova nella funzione `caricaStatistiche()`. Analizziamola meglio: come puoi vedere dall'esempio qui sotto, puoi già intravedere l'errore.
 
 ```cpp
 void caricaStatistiche() {
@@ -71,16 +79,29 @@ void caricaStatistiche() {
 }
 ```
 
-In ifstream il programma **legge e apre il file**, però nella linea `file << vittorie << pareggi << sconfitte;` c'è la l'errore principale, quando usi `<<` in c++ hanno un significato:
-- `<<` significa **output**
-- `>>` significa **input**
+Con `ifstream` il programma **apre e legge un file**, però nella riga `file << vittorie << pareggi << sconfitte;` c'è l'errore principale.
 
-e qui si crea il problema principale, tu stai diceno a `ifstream` che è un **input** di darli un **output**, questo è un errore di sintassi.
+Quando usi questi operatori in C++:
+
+* `<<` significa **output**
+* `>>` significa **input**
+
+Qui si crea il problema: stai dicendo a `ifstream`, che serve per fare **input**, di usare un operatore di **output**. Per correggere questo errore basta sostituire `<<` con `>>`.
 
 ---
 
-Il secondo errore è sempre collegato alle 
+Il secondo errore è sempre collegato alle funzioni di caricamento dati, ma questa volta riguarda le variabili.
 
+```cpp
+int vittorie = 0;
+int sconfitte = 0;
+int pareggi = 0;
+```
 
+Per capire meglio, tieni aperto il file `fix_me.cpp`. Se guardi bene, le tre variabili si trovano dentro il `main()`, e questo è un problema, perché nessuna funzione esterna al `main()` può accedere a quelle variabili.
+
+Fai una prova: crea un piccolo programma con una funzione. All'interno della funzione crea una variabile e poi prova a stamparla con `cout` nel `main()`. Vedrai che il programma darà errore.
+
+Se invece sposti quella variabile fuori dalla funzione, rendendola globale, sia la funzione che il `main()` potranno leggerla e modificarla.
 
 </details>
