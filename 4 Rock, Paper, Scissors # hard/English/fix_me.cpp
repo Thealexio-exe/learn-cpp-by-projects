@@ -5,97 +5,97 @@
 #include <fstream> 
 
 /*
-In questo fix_me è una semplificazione di game1 e game2, ci sono un po di problemi, li ho elecati qui sotto:
+In this fix_me is a simplification of game1 and game2. There are a few problems, listed below:
 
-- 2 bug sintassi/logica
-- 1 errore di logica nel while
-- 2 errori nelle funzioni di carica dati (1 di sintassi e uno più estetico)
-- 3 errori nelle varibili (consiglio studia bene il concetto di variabile globale)
-- 1 errore nascosto
+- 2 syntax/logical bugs
+- 1 logic error in the while loop
+- 2 errors in the data loading functions (1 syntax and 1 "cleanliness" issue)
+- 3 variable errors (tip: study global variables well)
+- 1 hidden error
 
-se sei su visual studio code ti consiglio di disattivare gli errori cosi rendi il tutto più difficile
+If you are using Visual Studio Code, I recommend disabling errors to make it more challenging.
 */ 
 
 using namespace std;
 
 
-void caricaStatistiche() {
-    ifstream file("statistiche.txt"); 
+void loadStatistics() {
+    ifstream file("statistics.txt"); 
     if (file.is_open()) { 
-        file << vittorie << pareggi << sconfitte; 
+        file << wins << draws << losses; 
         file.close();
     }
 }
 
-void salvaStatistiche() {
-    ofstream file("statistiche.txt"); 
+void saveStatistics() {
+    ofstream file("statistics.txt"); 
     if (file.is_open()) {
-        file << vittorie << pareggi << sconfitte;
+        file << wins << draws << losses;
         file.close();
     }
 }
 
-void Scelta_pc() {
+void Pc_choice() {
     srand(time(NULL))
     int random = rand()%3;
 
-    if (random == 0 ) return "sasso";
-    else if (random == 1 ) return "carta";
-    else return "forbici";
+    if (random == 0 ) return "rock";
+    else if (random == 1 ) return "paper";
+    else return "scissors";
 }
 
-void logica(string utente, string pc) {
-    if (utente == pc)  {
-        pareggi += 1;
-        return "pareggio";
+void logic(string user, string pc) {
+    if (user == pc)  {
+        draws += 1;
+        return "draw";
     }
-    else if ((utente == "sasso" && pc == "forbici") ||
-             (utente == "carta" && pc == "sasso") ||
-             (utente == "forbici" && pc == "carta") ) {
-        vittorie += 1;
-        return "Hai vinto";
+    else if ((user == "rock" && pc == "scissors") ||
+             (user == "paper" && pc == "rock") ||
+             (user == "scissors" && pc == "paper") ) {
+        wins += 1;
+        return "You won";
     } else {
-        sconfitte += 1;
-        return "Hai perso";   
+        losses += 1;
+        return "You lost";   
     }
 }
 
 int main() {
     
-    int vittorie = 0;
-    int sconfitte = 0;
-    int pareggi = 0;
+    int wins = 0;
+    int losses = 0;
+    int draws = 0;
 
-    caricaStatistiche(); 
+    loadStatistics(); 
 
-    cout << "gioca a sasso carta forbici, credo che sia inutile che ti spiegi come funziona." << endl;
+    cout << "Play Rock Paper Scissors, I think it's unnecessary to explain how it works." << endl;
 
     while (true) {
         string user;
         while (true) {
-            cout << "fai la tua scelta" << endl;
+            cout << "make your choice" << endl;
             cin >> user;
 
-            if (user == "sasso" || user == "carta" || user == "forbici") {
+            if (user == "rock" || user == "paper" || user == "scissors") {
                 cout << "ok \n";
             } else if (user == "stop") {; 
                 return 0;
-            }  else if (user == "statistiche"){
-                salvaStatistiche();
-                cout << "(Vittorie: " << vittorie << " ) (Pareggi: " << pareggi << " ) (Sconfitte: " << sconfitte << " ) " << endl;
+            }  else if (user == "statistics"){
+                saveStatistics();
+                cout << "(Wins: " << wins << " ) (Draws: " << draws << " ) (Losses: " << losses << " ) " << endl;
             } else {
-                cout << "scrivi in maniera corretta" << endl;
+                cout << "write correctly" << endl;
             }
         }
 
-        string pc = Scelta_pc();
-        cout << "il pc ha scelto: " << pc << endl;
+        string pc = Pc_choice();
+        cout << "the pc chose: " << pc << endl;
 
-        cout << logica(user, pc) << endl;
+        cout << logic(user, pc) << endl;
 
-        salvaStatistiche(); 
+        saveStatistics(); 
 
-        cout << "statistiche: (Vittorie: " << vittorie << " ) (Pareggi: " << pareggi << " ) (Sconfitte: " << sconfitte << " ) " << endl;
+        cout << "statistics: (Wins: " << wins << " ) (Draws: " << draws << " ) (Losses: " << losses << " ) " << endl;
     } 
 
 }

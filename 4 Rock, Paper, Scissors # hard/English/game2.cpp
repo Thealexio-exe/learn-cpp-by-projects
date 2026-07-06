@@ -2,102 +2,105 @@
 #include <string>
 #include <cstdlib>
 #include <ctime>
-#include <fstream> // aggiungiamo questa libreria per manipolare file esterni
+#include <fstream> // We add this library to manipulate external files.
 
 using namespace std;
 
-// variabili globali
-int vittorie = 0;
-int sconfitte = 0;
-int pareggi = 0;
+// Global variables
+int wins = 0;
+int losses = 0;
+int draws = 0;
 
 
-// in questa fuznione  il programma va a cercare il file statistiche.txt, dove al suo interno ci sarammo scritte le tre variabili 
-void caricaStatistiche() {
-    ifstream file("statistiche.txt"); // ifstream legge e cerca
-    if (file.is_open()) { // se lo trova legge le variabili
-        file >> vittorie >> pareggi >> sconfitte; 
+// In this function, the program looks for the file "statistics.txt".
+// Inside it, the three variables are stored.
+void loadStatistics() {
+    ifstream file("statistics.txt"); // ifstream opens and reads a file
+    if (file.is_open()) { // If the file exists, read the variables
+        file >> wins >> draws >> losses;
         file.close();
     }
 }
 
 /*
-ogni volta che si fa un raund si utilizza una funzione che aggiorna il file scrivedo, 
-semplicemte guarda quanto valgono le tre variabili globari 
-*/ 
-void salvaStatistiche() {
-    ofstream file("statistiche.txt"); // ofstream crea o modifica
+Every time a round is played, this function updates the file by writing
+the current values of the three global variables.
+*/
+void saveStatistics() {
+    ofstream file("statistics.txt"); // ofstream creates or modifies a file
     if (file.is_open()) {
-        file << vittorie << " " << pareggi << " " << sconfitte;
+        file << wins << " " << draws << " " << losses;
         file.close();
     }
 }
 
-string Scelta_pc() {
+string Pc_choice() {
     srand(time(NULL));
     int random = rand()%4;
 
-    if (random == 0 ) return "sasso";
-    else if (random == 1 ) return "carta";
-    else return "forbici";
+    if (random == 0 ) return "rock";
+    else if (random == 1 ) return "paper";
+    else return "scissors";
 }
 
-string logica(string utente, string pc) {
-    if (utente == pc)  {
-        pareggi += 1;
-        return "pareggio";
+string logic(string user, string pc) {
+    if (user == pc)  {
+        draws += 1;
+        return "Draw";
 
-    } else if ( (utente == "sasso" && pc == "forbici") ||
-                (utente == "carta" && pc == "sasso") ||
-                (utente == "forbici" && pc == "carta") ) {
-        vittorie += 1;
-        return "Hai vinto";
+    } else if ((user == "rock" && pc == "scissors") ||
+               (user == "paper" && pc == "rock") ||
+               (user == "scissors" && pc == "paper")) {
+        wins += 1;
+        return "You won";
 
     } else {
-        sconfitte += 1;
-        return "Hai perso";   
+        losses += 1;
+        return "You lost";
     }
 }
 
 int main() {
-    caricaStatistiche(); // prima cosa caricare se ci sono le tre variabili
+    loadStatistics(); // First, load the saved variables if they exist.
 
-    cout << "gioca a sasso carta forbici, credo che sia inutile che ti spiegi come funziona." << endl;
+    cout << "Play Rock, Paper, Scissors." << endl;
 
     while (true) {
         string user = "";
 
         while (true) {
-            cout << "fai la tua scelta" << endl;
+            cout << "Make your choice:" << endl;
             cin >> user;
 
-            // ho aggiunto un po di cose facili da capire
-            if (user == "sasso" || user == "carta" || user == "forbici") {
+            // I added a few easy-to-understand commands.
+            if (user == "rock" || user == "paper" || user == "scissors") {
                 break;
+
             } else if (user == "stop") {
 
                 return 0;
 
             } else if (user == "reset") {
-                vittorie = 0, pareggi = 0, sconfitte = 0;
+                wins = 0, draws = 0, losses = 0;
 
-                salvaStatistiche();
-                cout << "statistiche azzerate: (Vittorie: " << vittorie << " ) (Pareggi: " << pareggi << " ) (Sconfitte: " << sconfitte << " ) " << endl;
+                saveStatistics();
+                cout << "Statistics reset: (Wins: " << wins << " ) (Draws: " << draws << " ) (Losses: " << losses << " ) " << endl;
 
-            } else if (user == "statistiche"){
-                cout << "(Vittorie: " << vittorie << " ) (Pareggi: " << pareggi << " ) (Sconfitte: " << sconfitte << " ) " << endl;
+            } else if (user == "statistics") {
+                cout << "(Wins: " << wins << " ) (Draws: " << draws << " ) (Losses: " << losses << " ) " << endl;
+
             } else {
-                cout << "scrivi in maniera corretta" << endl;
+                cout << "Enter a valid choice." << endl;
             }
         }
 
-        string pc = Scelta_pc();
-        cout << "il pc ha scelto: " << pc << endl;
+        string pc = Pc_choice();
+        cout << "The PC chose: " << pc << endl;
 
-        cout << logica(user, pc) << endl;
+        cout << logic(user, pc) << endl;
 
-        salvaStatistiche();  // qui ogni volta salva e poi fa veredere i risultati
+        saveStatistics(); // Save the statistics after every round.
 
-        cout << "statistiche: (Vittorie: " << vittorie << " ) (Pareggi: " << pareggi << " ) (Sconfitte: " << sconfitte << " ) " << endl;
-    } // prova diverse volte questo programma
+        cout << "Statistics: (Wins: " << wins << " ) (Draws: " << draws << " ) (Losses: " << losses << " ) " << endl;
+    } // Try playing this program multiple times.
 }

@@ -1,4 +1,3 @@
-```cpp
 #include <iostream> 
 #include <string> // Library for using string variables.
 #include <cstdlib> // These two libraries are needed to generate random numbers.
@@ -80,4 +79,3 @@ int main() {
 
     }
 }
-```
