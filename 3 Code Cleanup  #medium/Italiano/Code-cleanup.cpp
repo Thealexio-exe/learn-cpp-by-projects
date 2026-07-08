@@ -22,11 +22,11 @@ int main() {
     cout << "inserisci il secondo numero: ";
     cin >> numero_2;
 
-    // output programma
+    // Output programma
     somma = Somma(numero_1, numero_2);
     cout << "il risultato è: " << somma << endl;
 
-    // controllo della varianile somma
+    // controllo della variabile somma
     if (somma <= 10) {
         cout << "somma maggiore di 10 \n";
     } else  {
