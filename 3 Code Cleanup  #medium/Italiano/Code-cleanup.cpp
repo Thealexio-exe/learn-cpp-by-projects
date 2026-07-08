@@ -26,7 +26,7 @@ int main() {
     somma = Somma(numero_1, numero_2);
     cout << "il risultato è: " << somma << endl;
 
-    // controllo della varianile so,,a
+    // controllo della varianile somma
     if (somma <= 10) {
         cout << "somma maggiore di 10 \n";
     } else  {
