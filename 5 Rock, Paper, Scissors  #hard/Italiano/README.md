@@ -2,7 +2,7 @@
 
 ## Introduzione:
 
-Questa volta ho fatto 2 versioni del file `game1.cpp` e `game2.cpp`.
+Questa volta ho fatto 2 versioni del file [`game1.cpp`](./game1.cpp) e [`game2.cpp`](./game2.cpp).
 
 Nel primo viene spiegato semplicemente come creare e come funziona Sasso Carta Forbici in C++, attraverso funzioni, string e numeri casuali. Successivamente, nel secondo, sono state aggiunte due funzioni per manipolare file `.txt` e salvare le variabili al di fuori del programma.
 
@@ -16,12 +16,12 @@ Ti lascio anche alcuni link alla documentazione online:
 
 ## Soluzioni:
 
-Qui ti lascio subito le soluzioni del file `fix_me.cpp`. Le ho divise in **Soluzioni 1** (più facili) e **Soluzioni 2** (più difficili).
+Qui ti lascio subito le soluzioni del file [`fix_me.cpp`](./fix_me.cpp). Le ho divise in **Soluzioni 1** (più facili) e **Soluzioni 2** (più difficili).
 
 <details>
 <summary>Soluzioni 1</summary>
 
-Okey, ragioniamo insieme passo passo. Il primo errore si trova nelle funzioni `void Scelta_pc()` e `void logica()`.
+Okey, ragioniamo insieme passo passo. Il primo errore si trova nelle funzioni [`void Scelta_pc()`](./fix_me.cpp#L28-52) e [`void logica()`](./fix_me.cpp#L28-52).
 
 In queste due funzioni viene usato il valore `void`, ma `void` significa “nulla”. Proprio dal suo significato si può capire qual è l’errore: la funzione non restituisce niente.
 Per correggere l’errore basta sostituire `void` con `string`, perché noi vogliamo che come risultato venga restituito del testo.
@@ -99,7 +99,7 @@ int sconfitte = 0;
 int pareggi = 0;
 ```
 
-Per capire meglio, tieni aperto il file `fix_me.cpp`. Se guardi bene, le tre variabili si trovano dentro il `main()`, e questo è un problema, perché nessuna funzione esterna al `main()` può accedere a quelle variabili.
+Per capire meglio, tieni aperto il file [`fix_me.cpp`](./fix_me.cpp). Se guardi bene, le tre variabili si trovano dentro il `main()`, e questo è un problema, perché nessuna funzione esterna al `main()` può accedere a quelle variabili.
 
 Fai una prova: crea un piccolo programma con una funzione. All'interno della funzione crea una variabile e poi prova a stamparla con `cout` nel `main()`. Vedrai che il programma darà errore.
 
