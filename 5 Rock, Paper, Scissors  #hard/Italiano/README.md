@@ -21,7 +21,7 @@ Qui ti lascio subito le soluzioni del file [`fix_me.cpp`](./fix_me.cpp). Le ho d
 <details>
 <summary>Soluzioni 1</summary>
 
-Okey, ragioniamo insieme passo passo. Il primo errore si trova nelle funzioni [`void Scelta_pc()`](./fix_me.cpp#L28-52) e [`void logica()`](./fix_me.cpp#L28-52).
+Okey, ragioniamo insieme passo passo. Il primo errore si trova nelle funzioni [`void Scelta_pc()`](./fix_me.cpp#L44) e [`void logica()`](./fix_me.cpp#L53).
 
 In queste due funzioni viene usato il valore `void`, ma `void` significa “nulla”. Proprio dal suo significato si può capire qual è l’errore: la funzione non restituisce niente.
 Per correggere l’errore basta sostituire `void` con `string`, perché noi vogliamo che come risultato venga restituito del testo.
@@ -55,10 +55,10 @@ int Somma(int a, int b) {
 
 ---
 
-Il secondo errore, e anche quello segreto, si trova sempre in `void Scelta_pc()`:
+Il secondo errore, e anche quello segreto, si trova sempre in [`void Scelta_pc()`](./fix_me.cpp#L44):
 
-* il primo è che `srand(time(NULL))` manca di un `;`, quindi è un errore banale ma comune;
-* il secondo si trova in `int random = rand()%2;`.
+* il primo è che [`srand(time(NULL))`](./fix_me.cpp#L45) manca di un `;`, quindi è un errore banale ma comune;
+* il secondo si trova in [`int random = rand()%2;`](./fix_me.cpp#L46).
   In informatica si parte sempre da `0` quando si conta, e proprio per questo non potrà mai uscire `forbici` come opzione. Per sistemare questo errore cambia `rand()%2;` con questa versione: `rand()%3;`
 
 </details>
@@ -68,7 +68,7 @@ Il secondo errore, e anche quello segreto, si trova sempre in `void Scelta_pc()`
 
 Ora guardiamo meglio gli errori presenti.
 
-Il primo errore si trova nella funzione `caricaStatistiche()`. Analizziamola meglio: come puoi vedere dall'esempio qui sotto, puoi già intravedere l'errore.
+Il primo errore si trova nella funzione [`caricaStatistiche()`](./fix_me.cpp#L28). Analizziamola meglio: come puoi vedere dall'esempio qui sotto, puoi già intravedere l'errore.
 
 ```cpp
 void caricaStatistiche() {
@@ -84,8 +84,8 @@ Con `ifstream` il programma **apre e legge un file**, però nella riga `file << 
 
 Quando usi questi operatori in C++:
 
-* `<<` significa **output**
-* `>>` significa **input**
+- `<<` significa **output**
+- `>>` significa **input**
 
 Qui si crea il problema: stai dicendo a `ifstream`, che serve per fare **input**, di usare un operatore di **output**. Per correggere questo errore basta sostituire `<<` con `>>`.
 
@@ -99,7 +99,7 @@ int sconfitte = 0;
 int pareggi = 0;
 ```
 
-Per capire meglio, tieni aperto il file [`fix_me.cpp`](./fix_me.cpp). Se guardi bene, le tre variabili si trovano dentro il `main()`, e questo è un problema, perché nessuna funzione esterna al `main()` può accedere a quelle variabili.
+Per capire meglio, tieni aperto il file [`fix_me.cpp`](./fix_me.cpp). Se guardi bene, le tre variabili si trovano dentro il [`main()`](./fix_me.cpp#L70-74), e questo è un problema, perché nessuna funzione esterna al `main()` può accedere a quelle variabili.
 
 Fai una prova: crea un piccolo programma con una funzione. All'interno della funzione crea una variabile e poi prova a stamparla con `cout` nel `main()`. Vedrai che il programma darà errore.
 

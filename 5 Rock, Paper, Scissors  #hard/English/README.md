@@ -2,7 +2,7 @@
 
 ## Introduction:
 
-This time I created 2 versions of the file `game1.cpp` and `game2.cpp`.
+This time I created 2 versions of the file [`game1.cpp`](./game1.cpp) and [`game2.cpp`](./game2.cpp).
 
 In the first one, it is simply explained how to create and how Rock Paper Scissors works in C++, using functions, strings and random numbers. Subsequently, in the second one, two functions were added to manipulate `.txt` files and save variables outside the program.
 
@@ -16,12 +16,12 @@ I also leave you some links to online documentation:
 
 ## Solutions:
 
-Here are the solutions for the `fix_me.cpp` file. They are divided into **Solutions 1** (easier) and **Solutions 2** (harder).
+Here are the solutions for the [`fix_me.cpp`](./fix_me.cpp) file. They are divided into **Solutions 1** (easier) and **Solutions 2** (harder).
 
 <details>
 <summary>Solutions 1</summary>
 
-Okey, let’s reason step by step. The first error is in the functions `void Scelta_pc()` and `void logica()`.
+Okey, let’s reason step by step. The first error is in the functions [`void Scelta_pc()`](./fix_me.cpp#L44) and [`void logica()`](./fix_me.cpp#L53).
 
 In these two functions the type `void` is used, but `void` means “nothing”. From its meaning you can already understand the mistake: the function does not return anything.
 To fix this error you just need to replace `void` with `string`, because we want the function to return text as a result.
@@ -55,10 +55,10 @@ int Somma(int a, int b) {
 
 ---
 
-The second error, which is also the hidden one, is still in `void Scelta_pc()`:
+The second error, which is also the hidden one, is still in [`void Scelta_pc()`](./fix_me.cpp#L44):
 
-* the first is that `srand(time(NULL))` is missing a `;`, which is a simple but common mistake;
-* the second is in `int random = rand()%2;`.
+* the first is that [`srand(time(NULL))`](./fix_me.cpp#L45) is missing a `;`, which is a simple but common mistake;
+* the second is in [`int random = rand()%2;`](./fix_me.cpp#L46).
   In programming we always start counting from `0`, and because of this, `scissors` can never be selected. To fix this error, change `rand()%2;` to this version: `rand()%3;`
 
 </details>
@@ -68,7 +68,7 @@ The second error, which is also the hidden one, is still in `void Scelta_pc()`:
 
 Now let’s look more closely at the errors.
 
-The first error is in the function `caricaStatistiche()`. Let’s analyze it: as you can see in the example below, the mistake is already visible.
+The first error is in the function [`caricaStatistiche()`](./fix_me.cpp#L28). Let’s analyze it: as you can see in the example below, the mistake is already visible.
 
 ```cpp
 void caricaStatistiche() {
@@ -99,7 +99,7 @@ int sconfitte = 0;
 int pareggi = 0;
 ```
 
-To understand better, keep the `fix_me.cpp` file open. If you look closely, the three variables are inside the `main()`, and this is a problem because no function outside `main()` can access them.
+To understand better, keep the [`fix_me.cpp`](./fix_me.cpp) file open. If you look closely, the three variables are inside the [`main()`](./fix_me.cpp#L70-74), and this is a problem because no function outside `main()` can access them.
 
 Try this: create a small program with a function. Inside the function define a variable and then try to print it with `cout` in `main()`. You will see that it will give an error.
 
