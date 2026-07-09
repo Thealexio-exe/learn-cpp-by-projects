@@ -29,7 +29,7 @@ int main() {
     // controllo della variabile somma
     if (somma <= 10) {
         cout << "somma minore di dieci \n";
-    } else  {
+    } else {
         cout << "somma maggiore di 10 \n";
     }
 
