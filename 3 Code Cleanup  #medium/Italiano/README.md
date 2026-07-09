@@ -1,43 +1,53 @@
 # Code-cleanup
 
-## **introduzione e spiegazioni**:
+## **Introduzione e spiegazioni**:
 
-In questo programma non ci sono bug, l'obbietivo è un altro, imparare a rendere leggibile il prorpio programma, questa è una cosa banale ma esenziale soprattutto nel mondo del lavoro.
-Ora immagina di produrre un programma complesso ma non rispetto per nulla una buona sintassi, dopo un mese torni a fixare dei bug nel programma e qqui ti rendi conto che non sai più dove metterci le mani, il programma per via della mancaza di una buona sintassi diventa illgibile e ci metterai il doppio del lavor, ora io ti consiglio, leggi le spiegazioni che ti di qui sotto e poi gurda il file `Code-cleanup.cpp` e infine correggi il file `fix_me.cpp`.
+In questo programma non ci sono bug, l'obiettivo è un altro: imparare a rendere leggibile il proprio programma. Questa può sembrare una cosa banale, ma è essenziale, soprattutto nel mondo del lavoro.
+
+Ora immagina di creare un programma complesso senza rispettare una buona sintassi. Dopo un mese torni a correggere dei bug e ti rendi conto che non sai più dove mettere le mani. Il programma, a causa della mancanza di una buona sintassi, diventa difficile da leggere e ci metterai il doppio del tempo a sistemarlo.
+
+Il mio consiglio è questo: leggi prima le spiegazioni qui sotto, poi guarda il file `Code-cleanup.cpp` e infine prova a correggere il file `fix_me.cpp`.
 
 <details>
-<summary>Clicka qui per le speigazioni</summary>
+<summary>Clicka qui per le spiegazioni</summary>
 
-Bene iniziamo, ci sono tante piccole cose per imparare a programmare con una buona sitassi.
+Bene, iniziamo. Ci sono tante piccole cose che possono aiutarti a scrivere codice con una buona sintassi.
 
-La prima cosa che ti consiglio e di usare il tasto **`invio`** più possibile, perchè penserai, il motivo è molto semplice, lasciare uno spazzio fra due linee di codice ti fa capire subito che le due cose non sono collegate, ti lascio un esempio qui sotto:
+La prima cosa che ti consiglio è di usare il tasto **`Invio`** il più possibile. Perché? Il motivo è molto semplice: lasciare uno spazio tra due blocchi di codice ti fa capire subito che quelle due parti non sono direttamente collegate. Ti lascio un esempio qui sotto:
+
 ```cpp
-    cout << "inserisci il primo numero: ";
+    cout << "Inserisci il primo numero: ";
     cin >> numero_1;
 
-    cout << "inserisci il secondo numero: ";
+    cout << "Inserisci il secondo numero: ";
     cin >> numero_2;
 ```
-Come puoi notare questo spazieto ti fa capire meglio il programamma, e non solo è anche più bello da vedere, piccolo extra se noti bene in ogni `cout` c'è un piccolo spazio alla fine del testo, mettilo sempre se dopo c'è da inserire una varibile sia da mandare a schermo che da far inserire, perchè senno la variabbile rimmarenbe attacata al testo 
 
-Un atro conisglio invece è quello di dare dei nomi decenti alle varianili, come puoi vedere nel file `Code-cleanup.cpp`, tutte le variabili hanno un nome facile da capire, se si chiamassereo var1, var2, a, b, ecc... non capiresti bene cosa servano le singole variabili, se la chiami somma è ovvio che li dentro ci stara la somma di altre variabili
+Come puoi notare, questo piccolo spazio rende il programma più facile da leggere e anche più piacevole da vedere.
 
-il penultimo conisglio che poso darti è semplice, quando ci sono delle intere parti di codice che fanno una azzione in particolare tipo fuzioni o if a cascata, lascia un conmento in cima con una breve spiegazione del codice, cosi sai fin da subito cosa faceva quella parte.
+Piccolo extra: se noti bene, in ogni `cout` c'è uno spazio alla fine del testo. Cerca di metterlo sempre quando dopo l'utente deve inserire un valore oppure quando andrai a stampare una variabile, altrimenti il testo e la variabile rimarranno attaccati.
 
-infine qunado utilizi `if`, `for`, ecc... cerca in ongi modo di rendere più leggibile possibile le condizioni, soprattuto se ci sono if annodati o a cascata. in più negli `if` ci sono delle varianti possiamo dire  per esempio se c'è solo una codizione puoi scemplificare il codice seza gli `{}` pe resempio
+Un altro consiglio è quello di dare dei nomi decenti alle variabili. Come puoi vedere nel file `Code-cleanup.cpp`, tutte le variabili hanno un nome facile da capire. Se invece si chiamassero `var1`, `var2`, `a`, `b`, ecc., sarebbe molto più difficile capire a cosa servono. Se una variabile si chiama `somma`, è abbastanza evidente che conterrà il risultato di una somma.
 
-```cpp 
+Il penultimo consiglio che posso darti è semplice: quando ci sono intere parti di codice che svolgono un'azione specifica, come funzioni o una serie di `if`, lascia un commento sopra con una breve spiegazione. In questo modo capirai subito cosa fa quella parte di codice senza doverla rileggere tutta.
+
+Infine, quando utilizzi `if`, `for`, ecc., cerca sempre di rendere le condizioni il più leggibili possibile, soprattutto quando hai molti `if` annidati o una lunga catena di condizioni.
+
+Inoltre, negli `if` esistono delle piccole scorciatoie. Per esempio, se c'è una sola istruzione puoi anche evitare di usare le graffe `{}`:
+
+```cpp
 if (num == 5)
-    cout << "mumero prari a 5";
+    cout << "numero pari a 5";
 ```
 
-o sennò:
+Oppure puoi scriverlo tutto su una riga:
 
-```cpp 
-if (num == 5) { cout << "mumero prari a 5"; }
+```cpp
+if (num == 5) { cout << "numero pari a 5"; }
 ```
 
-puo essere un buon modo se hai delle condizioni corte e particolari ma non abusare torppo di quasta cosa, meglio mandare a capo e mettere le graffe anche con una sola condizione.
+Può essere un buon modo per scrivere condizioni molto corte e particolari, ma non abusare troppo di questa possibilità. Nella maggior parte dei casi è meglio andare a capo e usare sempre le graffe, anche se c'è una sola istruzione.
+
 </details>
 
 ## Soluzioni:
@@ -45,5 +55,10 @@ puo essere un buon modo se hai delle condizioni corte e particolari ma non abusa
 <details>
 <summary>Clicka qui per le soluzioni</summary>
 
-Questa volta le soluzioni sono molto corte perchè basta gurdare il file `Code-cleanup.cpp`, per vedere il risultato, quindi più sono simili meglio è in poche parole, una piccola dritta che ti posso fare è che se i nomi che hai dato alle variabili sono simili a quelle del file `Code-cleanup.cpp`  va bene comunque l'importante e che capisci limportaza di dare nomi alle variabili, stessa cose per i commenti, poi se vuoi aggiungere funzionalità al file `fix_me.cpp` fai pure ricordati di usare una buona sintassi
+Questa volta le soluzioni sono molto corte, perché basta guardare il file `Code-cleanup.cpp` per vedere il risultato.
+
+In poche parole, più il tuo risultato è simile a quel file, meglio è. Una piccola precisazione: se i nomi che hai dato alle variabili non sono identici ma hanno comunque senso, va benissimo lo stesso. L'importante è capire quanto sia utile dare nomi chiari alle variabili.
+
+Lo stesso vale per i commenti. Se vuoi aggiungere qualche commento in più o migliorare il file `fix_me.cpp`, fallo pure. Ricordati solo di mantenere una buona sintassi e di scrivere un codice facile da leggere.
+
 </details>
