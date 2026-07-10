@@ -7,6 +7,10 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Work in Progress](https://img.shields.io/badge/Status-Work%20in%20Progress-red)
 
+
 ## English
 
 ## Italiano
+
+### Introduzione:
+Questa repository possiede una raccolta di programmi in cpp, ancora in espansione, con lo scopo di aiutare eventuali studenti a studiare questo linguaggio. In questo README l'ascio una veloce guida su come utilizare i vari programmi e le loro funzionalità.
