@@ -1,4 +1,4 @@
-# work in progress, wait 7 days
+# work in progress, wait 2 days
 
 # learn cpp by projects
 
