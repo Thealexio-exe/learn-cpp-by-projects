@@ -56,7 +56,7 @@ Qui sotto trovi una tabella con le competenze richieste e il livello di difficol
 > Perfetta per chi non ha mai usato il C++. Nessuna competenza richiesta.
 > **Difficoltà:** Molto facile
 >
-> [**2 Triangle Classifier**](tree/main/2%20triangle%20classifier%20%20#esye)
+> [**2 Triangle Classifier**](tree/main/2%20triangle%20classifier%20%20%23esye)
 > Richiede l'utilizzo degli `if` e delle condizioni.
 > **Difficoltà:** Facile
 >
