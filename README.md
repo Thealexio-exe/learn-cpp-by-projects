@@ -52,23 +52,23 @@ Qui sotto trovi una tabella con le competenze richieste e il livello di difficol
 
 > ---
 >
-> [**1 For Start**](/1%20For%20Start%20%20#super-esye)
+> [**1 For Start**](tree/main/1%20For%20Start%20%20#super-esye)
 > Perfetta per chi non ha mai usato il C++. Nessuna competenza richiesta.
 > **Difficoltà:** Molto facile
 >
-> [**2 Triangle Classifier**](/2%20triangle%20classifier%20%20#esye)
+> [**2 Triangle Classifier**](tree/main/2%20triangle%20classifier%20%20#esye)
 > Richiede l'utilizzo degli `if` e delle condizioni.
 > **Difficoltà:** Facile
 >
-> [**3 Code Cleanup**](/3%20Code%20Cleanup%20%20#medium)
+> [**3 Code Cleanup**](tree/main/3%20Code%20Cleanup%20%20#medium)
 > Serve a imparare a scrivere codice leggibile e con una buona sintassi.
 > **Difficoltà:** Media
 >
-> [**4 Simple Figure Generator**](/4%20simple%20figure%20generator%20%20#medium)
+> [**4 Simple Figure Generator**](tree/main/4%20simple%20figure%20generator%20%20#medium)
 > Richiede l'utilizzo dei cicli `for`.
 > **Difficoltà:** Media
 >
-> [**5 Rock, Paper, Scissors**](/5%20Rock,%20Paper,%20Scissors%20%20#hard/)
+> [**5 Rock, Paper, Scissors**](tree/main/5%20Rock,%20Paper,%20Scissors%20%20#hard/)
 > Richiede l'utilizzo di funzioni e delle librerie `cstdlib`, `ctime` e `fstream`.
 > **Difficoltà:** Difficile
 >
