@@ -7,31 +7,73 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Work in Progress](https://img.shields.io/badge/Status-Work%20in%20Progress-red)
 
-
 ## English
 
 ## Italiano
 
-### **Introduzione**:
-Questa repository possiede una raccolta di programmi in cpp, ancora in espansione, con lo scopo di aiutare eventuali studenti a studiare questo linguaggio. In questo README l'ascio una veloce guida su come utilizare i vari programmi e le loro funzionalità.
+### **Introduzione**
+
+Questa repository contiene una raccolta di programmi in C++, ancora in espansione, con lo scopo di aiutare gli studenti a imparare questo linguaggio.
+
+In questo `README` trovi una breve guida su come utilizzare i vari programmi e le loro funzionalità.
 
 ---
 
-### **Come usare la repository**:
-Ho disposto i vari programmi in un ordine di dificolta; in ogni cartella troverai vari file strutturati con la seguente logica:
+### **Come usare la repository**
 
-**File con codice** 
-- hanno lo stesso nome della cartella e al loro interno ci sara un programma in cpp con conmenti a spiegare come funziona. 
-- Nella cartella 1 e 2 i file sono scritti solo in inglese, gli altri possidono cartella in italiano e in inglese.
-- possono essere anche più di uno
+Ho organizzato i vari programmi in ordine di difficoltà. In ogni cartella troverai diversi file strutturati con la seguente logica:
 
-**File `fix_me.cpp`**
-- sono file in cpp presenti in ogni cartella, essi sono degli esercizi con cui puoi esercitarti ha risolvere problemi e verificare ciò che hai imparato 
-- in ogni cartella ci sono scritte le soluzione nei `README`
+> **File con codice**
 
-**File README**
-- ogni cartella ha il proprio `README`, sia in italiano che in inglese.
-- possiendono link e descrizioni dettagliate per aprofondire lo studio del c++ e delle varie librerie
-- sono file interattivi e facili da capire
-- in fondo hai `README` troverai dei pulsanti per vedere ke soluzioni dei `fix_me.cpp`
+* hanno lo stesso nome della cartella e al loro interno troverai un programma in C++ con commenti che spiegano come funziona.
+* nelle cartelle **1** e **2** i file sono scritti solo in inglese, mentre nelle successive troverai sia la versione italiana che quella inglese.
+* in alcune cartelle potrebbero essere presenti più file.
 
+> **File `fix_me.cpp`**
+
+* sono file presenti in ogni cartella e servono per esercitarti a risolvere bug o completare parti di codice, così da verificare ciò che hai imparato.
+* in ogni cartella troverai anche le soluzioni all'interno del relativo `README`.
+
+> **File `README.md`**
+
+* ogni cartella possiede il proprio `README`, sia in italiano che in inglese.
+* contengono link e spiegazioni dettagliate per approfondire lo studio del C++ e delle librerie utilizzate.
+* sono pensati per essere semplici da leggere e il più possibile interattivi.
+* in fondo a ogni `README` troverai dei pulsanti (`details`) per visualizzare le soluzioni dei vari `fix_me.cpp`.
+
+---
+
+### **Difficoltà e competenze**
+
+Qui sotto trovi una tabella con le competenze richieste e il livello di difficoltà di ogni cartella.
+
+<details>
+<summary>Clicca per vedere la tabella</summary>
+
+> ---
+>
+> [**1 For Start**](/1%20For%20Start%20%20#super-esye)
+> Perfetta per chi non ha mai usato il C++. Nessuna competenza richiesta.
+> **Difficoltà:** Molto facile
+>
+> [**2 Triangle Classifier**](/2%20triangle%20classifier%20%20#esye)
+> Richiede l'utilizzo degli `if` e delle condizioni.
+> **Difficoltà:** Facile
+>
+> [**3 Code Cleanup**](/3%20Code%20Cleanup%20%20#medium)
+> Serve a imparare a scrivere codice leggibile e con una buona sintassi.
+> **Difficoltà:** Media
+>
+> [**4 Simple Figure Generator**](/4%20simple%20figure%20generator%20%20#medium)
+> Richiede l'utilizzo dei cicli `for`.
+> **Difficoltà:** Media
+>
+> [**5 Rock, Paper, Scissors**](/5%20Rock,%20Paper,%20Scissors%20%20#hard/)
+> Richiede l'utilizzo di funzioni e delle librerie `cstdlib`, `ctime` e `fstream`.
+> **Difficoltà:** Difficile
+>
+> In futuro questa lista verrà aggiornata.
+>
+> ---
+
+</details>
