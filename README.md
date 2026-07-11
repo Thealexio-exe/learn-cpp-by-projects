@@ -15,6 +15,7 @@ Another important thing: the programs were written entirely by **Thealexio**, wh
 
 The goal is to create a collection of projects with exercises and explanations. If you also have simple C++ projects, I would be very happy if you contributed to this project.
 
+---
 
 ## Italiano
 
@@ -25,6 +26,8 @@ Sto ancora lavorando a questo progetto e al momento sto creando questo `README` 
 Un'altra cosa importante: i programmi sono stati scritti interamente da **Thealexio**, mentre la traduzione in inglese è stata fatta con l'aiuto dell'AI. Se ci sono problemi o errori nelle traduzioni mi scuso, appena avrò veramente tempo da dedicare a questo progetto inizierò anche a rivedere la grammatica di ogni file `README`.
 
 L'obiettivo è creare una raccolta di progetti con esercizi e spiegazioni. Se avete anche voi dei progetti semplici in Cpp mi farebbe molto piacere se contribuiste a questo progetto.
+
+---
 
 ### **Introduzione**
 
@@ -92,3 +95,5 @@ Qui sotto trovi una tabella con le competenze richieste e il livello di difficol
 > ---
 
 </details>
+
+---
