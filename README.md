@@ -1,5 +1,3 @@
-# work in progress, wait 2 days
-
 # learn cpp by projects
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?logo=cplusplus)
@@ -9,7 +7,24 @@
 
 ## English
 
+### **Premises**
+
+I am still working on this project, and at the moment I am creating this `README` that you are reading. The repository is still a demo of what I want to create, so if there are still some problems, it is because I have been working on it for about a week, until September, I will not work too much on this project, but there will still be some updates. Later, I will improve and add new material to the repository, also using my school projects.
+
+Another important thing: the programs were written entirely by **Thealexio**, while the English translation was made with the help of AI. If there are any problems or translation errors, I apologize. As soon as I have more time to dedicate to this project, I will also start reviewing the grammar of every `README` file.
+
+The goal is to create a collection of projects with exercises and explanations. If you also have simple C++ projects, I would be very happy if you contributed to this project.
+
+
 ## Italiano
+
+### **Premesse**:
+
+Sto ancora lavorando a questo progetto e al momento sto creando questo `README` che stai leggendo. La repository è ancora una demo di ciò che voglio creare, quindi se ci sono ancora alcuni problemi è perché ci sto lavorando da circa una settimana, fino a settembre non lavorerò troppo su questo progetto, ma ci saranno comunque alcuni aggiornamenti. Successivamente migliorerò e aggiungerò nuovo materiale alla repository, sfruttando anche i miei progetti scolastici.
+
+Un'altra cosa importante: i programmi sono stati scritti interamente da **Thealexio**, mentre la traduzione in inglese è stata fatta con l'aiuto dell'AI. Se ci sono problemi o errori nelle traduzioni mi scuso, appena avrò veramente tempo da dedicare a questo progetto inizierò anche a rivedere la grammatica di ogni file `README`.
+
+L'obiettivo è creare una raccolta di progetti con esercizi e spiegazioni. Se avete anche voi dei progetti semplici in Cpp mi farebbe molto piacere se contribuiste a questo progetto.
 
 ### **Introduzione**
 
