@@ -97,3 +97,11 @@ Qui sotto trovi una tabella con le competenze richieste e il livello di difficol
 </details>
 
 ---
+
+### **Rodad Map**
+
+---
+
+### **Contatti**
+
+In caso di bug o suggerimentepotete usare le issue o potete contatarmi in privato via mail: `argenti.projects@gmail.com`  
