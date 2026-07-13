@@ -1,9 +1,13 @@
 # <img src="./assets/Icon/cpp.svg" width="25" > learn cpp by projects
 
-![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?logo=cplusplus)
+![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-brightgreen)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
-![Work in Progress](https://img.shields.io/badge/Status-Work%20in%20Progress-red)
+![Language](https://img.shields.io/badge/Language-IT%20%7C%20EN-red)
+![GitHub stars](https://img.shields.io/github/stars/Thealexio-exe/learn-cpp-by-projects?style=social)
+![Status](https://img.shields.io/badge/Status-Maintained-brightgreen)
+![GitHub contributors](https://img.shields.io/github/contributors/Thealexio-exe/learn-cpp-by-projects)
+![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
 
 ⭐ If you like this project, consider leaving a star!
 
