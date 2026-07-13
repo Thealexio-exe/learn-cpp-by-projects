@@ -43,16 +43,24 @@ Ho organizzato i vari programmi in ordine di difficoltà. In ogni cartella trove
 
 > **File con codice**
 
+<img src="./assets/screenshots/2.png">
+
 - hanno lo stesso nome della cartella e al loro interno troverai un programma in C++ con commenti che spiegano come funziona.
 - nelle cartelle **1** e **2** i file sono scritti solo in inglese, mentre nelle successive troverai sia la versione italiana che quella inglese.
 - in alcune cartelle potrebbero essere presenti più file.
 
+
+
 > **File `fix_me.cpp`**
+
+<img src="./assets/screenshots/1.png">
 
 - sono file presenti in ogni cartella e servono per esercitarti a risolvere bug o completare parti di codice, così da verificare ciò che hai imparato.
 - in ogni cartella troverai anche le soluzioni all'interno del relativo `README`.
 
 > **File `README.md`**
+
+<img src="./assets/screenshots/3.png">
 
 - ogni cartella possiede il proprio `README`, sia in italiano che in inglese.
 - contengono link e spiegazioni dettagliate per approfondire lo studio del C++ e delle librerie utilizzate.
