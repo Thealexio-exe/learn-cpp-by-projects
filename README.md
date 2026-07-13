@@ -1,39 +1,118 @@
-# learn cpp by projects
+# <img src="./assets/Icon/cpp.svg" width="25" > learn cpp by projects
 
 ![C++](https://img.shields.io/badge/Language-C%2B%2B-blue?logo=cplusplus)
 ![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-brightgreen)
 ![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
 ![Work in Progress](https://img.shields.io/badge/Status-Work%20in%20Progress-red)
 
-## English
+⭐ If you like this project, consider leaving a star!
 
-### **Premises**
+> ## **Language**
+> - 🇬🇧 **[English](#english)**
+> - 🇮🇹 **[Italiano](#italiano)**
+>
+> ## **Contents**
+>
+> - [Introduction](#introduction) | [Introduzione](#introduzione)
+> - [How to use this repository](#how-to-use-this-repository) | [Come usare la repository](#come-usare-la-repository)
+> - [Difficulty and skills](#difficulty-and-skills) | [Difficoltà e competenze](#difficoltà-e-competenze)
+> - [Contacts](#contacts) | [Contatti](#contatti)
+> ---
 
-I am still working on this project, and at the moment I am creating this `README` that you are reading. The repository is still a demo of what I want to create, so if there are still some problems, it is because I have been working on it for about a week, until September, I will not work too much on this project, but there will still be some updates. Later, I will improve and add new material to the repository, also using my school projects.
+## <img src="./assets/img/ing.png" width="25" height="15"> English
 
-Another important thing: the programs were written entirely by **Thealexio**, while the English translation was made with the help of AI. If there are any problems or translation errors, I apologize. As soon as I have more time to dedicate to this project, I will also start reviewing the grammar of every `README` file.
+### **Introduction**
 
-The goal is to create a collection of projects with exercises and explanations. If you also have simple C++ projects, I would be very happy if you contributed to this project.
+This repository contains a collection of C++ programs created to help students learn this language. Of course, this repository is only a study resource, so I strongly recommend trying the programs yourself to improve your programming skills.
+
+I'm still working on this project, so the repository is currently just a demo of what I want to create. If you find some problems, that's completely normal. At the moment I'm working on other projects, so this repository will not receive many updates over the next two months.
+
+Another important thing: all the programs have been written entirely by **Thealexio**, while the English translation has been made with the help of AI. If you find translation mistakes or grammatical errors, I apologize. As soon as I have more time to dedicate to this project, I will also review the grammar of every file.
+
+Finally, the goal is to create a collection of projects with exercises and explanations. If you also have some simple C++ projects, I would really appreciate it if you contributed to this repository and helped expand the project.
 
 ---
 
-## Italiano
+### **How to use this repository**
 
-### **Premesse**:
+I organized the projects by difficulty. Inside every folder you will find different files organized with the following structure:
 
-Sto ancora lavorando a questo progetto e al momento sto creando questo `README` che stai leggendo. La repository è ancora una demo di ciò che voglio creare, quindi se ci sono ancora alcuni problemi è perché ci sto lavorando da circa una settimana, fino a settembre non lavorerò troppo su questo progetto, ma ci saranno comunque alcuni aggiornamenti. Successivamente migliorerò e aggiungerò nuovo materiale alla repository, sfruttando anche i miei progetti scolastici.
+> **Code files**
 
-Un'altra cosa importante: i programmi sono stati scritti interamente da **Thealexio**, mentre la traduzione in inglese è stata fatta con l'aiuto dell'AI. Se ci sono problemi o errori nelle traduzioni mi scuso, appena avrò veramente tempo da dedicare a questo progetto inizierò anche a rivedere la grammatica di ogni file `README`.
+<img src="./assets/screenshots/2.png">
 
-L'obiettivo è creare una raccolta di progetti con esercizi e spiegazioni. Se avete anche voi dei progetti semplici in Cpp mi farebbe molto piacere se contribuiste a questo progetto.
+- they have the same name as the folder and contain a C++ program with comments explaining how it works.
+- folders **1** and **2** are available only in English, while the following ones include both the Italian and English versions.
+- some folders may contain more than one source file.
+
+> **`fix_me.cpp` files**
+
+<img src="./assets/screenshots/1.png">
+
+- these files are available in every folder and are designed to help you practice by fixing bugs or completing parts of the code.
+- every folder also contains the solutions inside its own `README`.
+
+> **`README.md` files**
+
+<img src="./assets/screenshots/3.png">
+
+- every folder has its own `README`, available in both Italian and English.
+- they contain links and detailed explanations to help you learn C++ and the libraries used.
+- they are designed to be simple to read and as interactive as possible.
+- at the bottom of each `README` you will find `details` sections containing the solutions for the various `fix_me.cpp` files.
 
 ---
+
+### **Difficulty and skills**
+
+Below you can find the required skills and the difficulty level for each folder.
+
+<details>
+<summary>Click to view the table</summary>
+
+> ---
+>
+> [**1 For Start**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/1%20For%20Start%20%20%23super-esye)
+> Perfect for people who have never used C++. No previous knowledge required.
+>
+> [**2 Triangle Classifier**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/2%20triangle%20classifier%20%20%23esye)
+> Requires knowledge of `if` statements and conditions.
+>
+> [**3 Code Cleanup**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/3%20Code%20Cleanup%20%20%23medium)
+> Learn how to write clean, readable code with good formatting.
+>
+> [**4 Simple Figure Generator**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/4%20simple%20figure%20generator%20%20%23medium)
+> Requires knowledge of `for` loops.
+>
+> [**5 Rock, Paper, Scissors**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/5%20Rock%2C%20Paper%2C%20Scissors%20%20%23hard)
+> Requires functions and the `cstdlib`, `ctime` and `fstream` libraries.
+>
+> This list will be updated in the future.
+>
+> ---
+
+</details>
+
+---
+
+### **Contacts**
+
+If you find a bug or have a suggestion, feel free to open an Issue in the repository or contact me by email: `argenti.projects@gmail.com`
+
+---
+
+## <img src="./assets/img/italia.png" width="25" height="15"> Italiano
+
 
 ### **Introduzione**
 
-Questa repository contiene una raccolta di programmi in C++, ancora in espansione, con lo scopo di aiutare gli studenti a imparare questo linguaggio.
+Questa repository contiene una raccolta di programmi in C++, con lo scopo di aiutare gli studenti a imparare questo linguaggio, ovviamete questa repository e solo un supporto per lo studio, quindi consiglio fortemete l'utilizzo dei vari programmi per migliorare le proprie capacità.
 
-In questo `README` trovi una breve guida su come utilizzare la repository.
+Sto ancora lavorando a questo progetto infatti la repository è ancora una demo di ciò che voglio creare, quindi se ci sono ancora alcuni problemi è normale sto al momento lavorando ad altri progetti per questo non fara molti update per i prossimi due mesi.
+
+Un'altra cosa importante: i programmi sono stati scritti interamente da **Thealexio**, mentre la traduzione in inglese è stata fatta con l'aiuto dell'AI. Se ci sono problemi o errori nelle traduzioni mi scuso, appena avrò veramente tempo da dedicare a questo progetto inizierò anche a rivedere la grammatica di ogni file.
+
+Infine l'obiettivo è creare una raccolta di progetti con esercizi e spiegazioni. Se avete anche voi dei progetti semplici in Cpp mi farebbe molto piacere se contribuiste a questo progetto cosi da espandere il progetto.
 
 ---
 
@@ -48,7 +127,6 @@ Ho organizzato i vari programmi in ordine di difficoltà. In ogni cartella trove
 - hanno lo stesso nome della cartella e al loro interno troverai un programma in C++ con commenti che spiegano come funziona.
 - nelle cartelle **1** e **2** i file sono scritti solo in inglese, mentre nelle successive troverai sia la versione italiana che quella inglese.
 - in alcune cartelle potrebbero essere presenti più file.
-
 
 
 > **File `fix_me.cpp`**
