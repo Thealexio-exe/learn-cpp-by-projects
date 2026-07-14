@@ -11,6 +11,7 @@
 
 ⭐ If you like this project, consider leaving a star!
 
+> ---
 > ## **Language**
 > - 🇬🇧 **[English](#english)**
 > - 🇮🇹 **[Italiano](#italiano)**
