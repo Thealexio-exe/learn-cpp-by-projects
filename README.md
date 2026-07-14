@@ -99,6 +99,17 @@ Below you can find the required skills and the difficulty level for each folder.
 
 ---
 
+### **RoadMap**
+
+- 🟢 **v1.0** - Initial development of the project
+- 🟢 **v1.1 – v1.6** - Structure improvements, new content, and bug fixes
+- 🟡 **v1.6 – v1.9** - Regular updates (planned for the next few months)
+- 🔴 **v2.0** - Addition of many new programs and exercises
+- 🔴 **v2.1 – v2.9** - General improvements, new features, and optimizations
+- 🔴 **v3.0** - Complete repository reorganization and new project structure
+
+---
+
 ### **Contacts**
 
 If you find a bug or have a suggestion, feel free to open an Issue in the repository or contact me by email: `argenti.projects@gmail.com`
@@ -180,6 +191,17 @@ Qui sotto trovi una tabella con le competenze richieste e il livello di difficol
 > ---
 
 </details>
+
+---
+
+### **RoadMaps**
+
+- 🟢 **v1.0** Inizio dello sviluppo del progetto
+- 🟢 **v1.1 – v1.6**  Miglioramenti alla struttura, nuovi contenuti e correzioni
+- 🟡 **v1.6 – v1.9**  Aggiornamenti periodici (previsti nei prossimi 2 mesi)
+- 🔴 **v2.0** Aggiunta di molti nuovi progetti ed esercizi
+- 🔴 **v2.1 – v2.9** Miglioramenti generali, nuove funzionalità e ottimizzazioni
+- 🔴 **v3.0** Riorganizzazione completa della repository e nuova struttura
 
 ---
 
