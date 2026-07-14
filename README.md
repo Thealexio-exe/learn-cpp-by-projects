@@ -20,7 +20,7 @@
 > - [Introduction](#introduction) | [Introduzione](#introduzione)
 > - [How to use this repository](#how-to-use-this-repository) | [Come usare la repository](#come-usare-la-repository)
 > - [Difficulty and skills](#difficulty-and-skills) | [Difficoltà e competenze](#difficoltà-e-competenze)
-> - [RoadMaps](#roadmap) | [RoadMaps](#roadmap-1)
+> - [RoadMaps-EN](#roadmap) | [RoadMaps-IT](#roadmap-1)
 > - [Contacts](#contacts) | [Contatti](#contatti)
 > ---
 
