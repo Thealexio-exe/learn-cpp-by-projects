@@ -20,6 +20,7 @@
 > - [Introduction](#introduction) | [Introduzione](#introduzione)
 > - [How to use this repository](#how-to-use-this-repository) | [Come usare la repository](#come-usare-la-repository)
 > - [Difficulty and skills](#difficulty-and-skills) | [Difficoltà e competenze](#difficoltà-e-competenze)
+> - [RoadMaps](#roadmap) | [RoadMaps](#roadmap-1)
 > - [Contacts](#contacts) | [Contatti](#contatti)
 > ---
 
@@ -194,7 +195,7 @@ Qui sotto trovi una tabella con le competenze richieste e il livello di difficol
 
 ---
 
-### **RoadMaps**
+### **RoadMap**
 
 - 🟢 **v1.0** Inizio dello sviluppo del progetto
 - 🟢 **v1.1 – v1.6**  Miglioramenti alla struttura, nuovi contenuti e correzioni
