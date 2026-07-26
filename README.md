@@ -9,7 +9,7 @@
 ![GitHub contributors](https://img.shields.io/github/contributors/Thealexio-exe/learn-cpp-by-projects)
 ![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
 
-⭐ If you like this project, consider leaving a star!
+⭐ If you like this project, pls leaving a star!
 
 > ---
 > ## **Language**
