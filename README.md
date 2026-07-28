@@ -25,7 +25,7 @@
 > - [Contacts](#contacts) | [Contatti](#contatti)
 > ---
 
-## <img src="./assets/img/ing.png" width="25" height="15"> English
+## 🇬🇧 English
 
 ### **Introduction**
 
