@@ -6,13 +6,13 @@ int main() {
 
     float lato1 = 0, lato2 = 0, lato3 = 0;
 
-    cout << "Inserisci il lato 1: \n";
+    cout << "Inserisci il lato 1: " << endl;
     cin >> lato1;
 
-    cout << "Inserisci il lato 2: \n";
+    cout << "Inserisci il lato 2:" << endl;
     cin >> lato2;
 
-    cout << "Inserisci il lato 3: \n";
+    cout << "Inserisci il lato 3: " << endl;
     cin >> lato3;
 
     /*
@@ -29,10 +29,10 @@ int main() {
     Ci sono due possibili modi per risolverlo.
     */
     if (lato1 == lato2 && lato2 == lato3 && lato3 == lato1) {
-        cout << "equilatero\n";
+        cout << "equilatero" << endl;
     } else if (lato1 == lato2 && lato3 == lato2 && lato3 != lato1) {
-        cout << "isoscele\n";
+        cout << "isoscele" << endl;
     } else {
-        cout << "scaleno\n";
+        cout << "scaleno" << endl;
     }
 }

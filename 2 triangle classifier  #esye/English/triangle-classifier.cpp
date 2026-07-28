@@ -8,13 +8,13 @@ int main() {
     float side1 = 0, side2 = 0, side3 = 0;
 
     // Insert 3 values, each one represents a side of a triangle.
-    cout << "Insert side 1: \n";
+    cout << "Insert side 1: " << endl;
     cin >> side1;
 
-    cout << "Insert side 2: \n";
+    cout << "Insert side 2: " << endl;
     cin >> side2;
 
-    cout << "Insert side 3: \n";
+    cout << "Insert side 3: " << endl;
     cin >> side3;
 
     /*
@@ -23,17 +23,17 @@ int main() {
     if you wont, you can simplify this if statement
     */
     if (side1 == side2 && side2 == side3 && side3 == side1) {
-        cout << "equilateral\n";
+        cout << "equilateral" << endl;
     }
 
     /* != means "not equal", so here the logic is:
     if all sides are different, the triangle is scalene. */
     else if (side1 != side2 && side3 != side2 && side3 != side1) {
-        cout << "scalene\n";
+        cout << "scalene" << endl;
     }
 
     // Otherwise, two sides must be equal → isosceles.
     else {
-        cout << "isosceles\n";
+        cout << "isosceles" << endl;
     }
 }
