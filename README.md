@@ -13,8 +13,8 @@
 
 > ---
 > ## **Language**
-> - 🇬🇧 **[English](#english)**
-> - 🇮🇹 **[Italiano](#italiano)**
+> - 🇬🇧 **[English](#-english)**
+> - 🇮🇹 **[Italiano](#-italiano)**
 >
 > ## **Contents**
 >
