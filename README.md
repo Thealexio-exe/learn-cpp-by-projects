@@ -25,6 +25,8 @@
 > - [Contacts](#contacts) | [Contatti](#contatti)
 > ---
 
+# **🛠️ REWORK COMING SOON 🛠️**
+
 ## 🇬🇧 English
 
 ### **Introduction**
@@ -105,8 +107,8 @@ Below you can find the required skills and the difficulty level for each folder.
 
 - ✔️ **v1.0** - Initial development of the project
 - ✔️ **v1.1 – v1.6** - Structure improvements, new content, and bug fixes
-- 🛠️ **v1.6 – v1.9** - Regular updates (planned for the next few months)
-- ✖️ **v2.0** - Addition of many new programs and exercises
+- ✔️ **v1.6 – v1.9** - Regular updates (planned for the next few months)
+- 🛠️ **v2.0** - reorganization for reduction the number of files
 - ✖️ **v2.1 – v2.9** - General improvements, new features, and optimizations
 - ✖️ **v3.0** - Complete repository reorganization and new project structure
 
@@ -200,8 +202,8 @@ Qui sotto trovi una tabella con le competenze richieste e il livello di difficol
 
 - ✔️ **v1.0** Inizio dello sviluppo del progetto
 - ✔️ **v1.1 – v1.6**  Miglioramenti alla struttura, nuovi contenuti e correzioni
-- 🛠️ **v1.6 – v1.9**  Aggiornamenti periodici (previsti nei prossimi 2 mesi)
-- ✖️ **v2.0** Aggiunta di molti nuovi progetti ed esercizi
+- ✔️ **v1.6 – v1.9**  Aggiornamenti periodici (previsti nei prossimi 2 mesi)
+- 🛠️ **v2.0** Riorganizzazione, obbietivo riddurre il numero di file
 - ✖️ **v2.1 – v2.9** Miglioramenti generali, nuove funzionalità e ottimizzazioni
 - ✖️ **v3.0** Riorganizzazione completa della repository e nuova struttura
 
