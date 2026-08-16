@@ -1,4 +1,6 @@
-# <img src="./assets/Icon/cpp.svg" width="25" > learn cpp by projects
+# **🛠️ REWORK COMING SOON 🛠️**# 
+
+<img src="./assets/Icon/cpp.svg" width="25" > learn cpp by projects
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-brightgreen)
@@ -24,8 +26,6 @@
 > - [RoadMaps-EN](#roadmap) | [RoadMaps-IT](#roadmap-1)
 > - [Contacts](#contacts) | [Contatti](#contatti)
 > ---
-
-# **🛠️ REWORK COMING SOON 🛠️**
 
 ## 🇬🇧 English
 
