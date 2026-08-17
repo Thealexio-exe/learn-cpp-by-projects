@@ -20,5 +20,4 @@ int main() {
 // let's admit it, this code is ugly to look at and read.
 
 // Imagine something like this, but 100 times longer:
-// after a week, even the person who created this program
-// would not be able to easily work on it again.
+// after a week, even the person who created this program would not be able to easily work on it again.
