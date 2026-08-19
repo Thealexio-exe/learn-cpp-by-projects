@@ -64,7 +64,7 @@ there are two ways to solve this.
 
 ### Solution 1 (recommended)
 
-Use the simpler logic from [`triangle-classifier.cpp`](./fix_me.cpp).
+Use the simpler logic from [`triangle-classifier.cpp`](./triangle-classifier.cpp).
 
 ### Solution 2
 
@@ -88,8 +88,7 @@ This solution works correctly but becomes longer and harder to read.
 
 ## **Introduzione e spiegazione:**
 Questo programma funziona facendo inserire tre valori che rappresentano i lati di un triangolo.
-Successivamente, tramite delle condizioni `if`, il programma determina il tipo di triangolo.
-
+Successivamente, tramite delle condizioni `if`, il programma determina il tipo di triangolo.<br>
 Questo esercizio serve per capire meglio come funzionano le condizioni.
 
 Prova a sperimentare. Per esempio:
@@ -124,7 +123,7 @@ L'errore dentro [`fix_me.cpp`](./fix_me.cpp) è qui:
 
 ```cpp
 else if (side1 == side2 && side3 == side2 && side3 != side1) {
-    cout << "isoscele\n";
+    cout << "isosceles\n";
 }
 ```
 
@@ -146,7 +145,7 @@ ci sono due modi per correggerlo.
 
 ### Soluzione 1 (consigliata)
 
-Usare la logica più semplice presente in [`triangle-classifier.cpp`](./fix_me.cpp).
+Usare la logica più semplice presente in [`triangle-classifier.cpp`](./triangle-classifier.cpp).
 
 ### Soluzione 2
 
@@ -158,7 +157,7 @@ else if (
     (side1 == side3 && side1 != side2) ||
     (side2 == side3 && side2 != side1)
 ) {
-    cout << "isoscele\n";
+    cout << "isosceles\n";
 }
 ```
 
