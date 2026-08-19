@@ -5,9 +5,8 @@ Select the languages: [English](#english) | [Italiano](#italiano)
 # English
 
 ## **Introduction and explanation:**
-This program works by asking the user to enter three values that represent the sides of a triangle.
-Then, using `if` conditions, the program determines which type of triangle it is.
-
+This program works by asking the user to enter three values that represent the sides of a triangle.<br>
+Then, using `if` conditions, the program determines which type of triangle it is.<br>
 This exercise is made to help you understand how conditions work.
 
 Try experimenting with conditions. For example:
@@ -87,7 +86,7 @@ This solution works correctly but becomes longer and harder to read.
 # Italiano
 
 ## **Introduzione e spiegazione:**
-Questo programma funziona facendo inserire tre valori che rappresentano i lati di un triangolo.
+Questo programma funziona facendo inserire tre valori che rappresentano i lati di un triangolo.<br>
 Successivamente, tramite delle condizioni `if`, il programma determina il tipo di triangolo.<br>
 Questo esercizio serve per capire meglio come funzionano le condizioni.
 
