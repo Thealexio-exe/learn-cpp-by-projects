@@ -33,7 +33,7 @@
 
 This repository contains a collection of C++ programs created to help students learn this language. Of course, this repository is only a study resource, so I strongly recommend trying the programs yourself to improve your programming skills.
 
-I'm still working on this project, so the repository is currently just a demo of what I want to create. If you find some problems, that's completely normal. At the moment I'm working on other projects, so this repository will not receive many updates over the next two months.
+I'm still working on this project, so the repository is currently just a demo of what I want to create. If you find some problems, that's completely normal. I am currently about to completely rework the repository, so issues might increase, i am also working on other private projects. I aim to finish the rework by mid-September I already have a structure in mind.
 
 Another important thing: all the programs have been written entirely by **[Thealexio](https://github.com/Thealexio-exe)**, while the English translation has been made with the help of AI. If you find translation mistakes or grammatical errors, I apologize. As soon as I have more time to dedicate to this project, I will also review the grammar of every file.
 
@@ -130,9 +130,9 @@ argenti.projects@gmail.com
 
 Questa repository contiene una raccolta di programmi in C++, con lo scopo di aiutare gli studenti a imparare questo linguaggio, ovviamete questa repository e solo un supporto per lo studio, quindi consiglio fortemete l'utilizzo dei vari programmi per migliorare le proprie capacità.
 
-Sto ancora lavorando a questo progetto infatti la repository è ancora una demo di ciò che voglio creare, quindi se ci sono ancora alcuni problemi è normale sto al momento lavorando ad altri progetti per questo non fara molti update per i prossimi due mesi.
+Sto ancora lavorando a questo progetto infatti la repository è ancora una demo di ciò che voglio creare, quindi se ci sono ancora alcuni problemi è normale, al momento sto per fare un rework totale della repository i problemi potrebbero aumentare, tra l'altro sto lavorando ad altri progetti privati, verso metà settembre voglio finire il rework ho in mente una struttura.
 
-Un'altra cosa importante: i programmi sono stati scritti interamente da **[Thealexio](https://github.com/Thealexio-exe)**, mentre la traduzione in inglese è stata fatta con l'aiuto dell'AI. Se ci sono problemi o errori nelle traduzioni mi scuso, appena avrò veramente tempo da dedicare a questo progetto inizierò anche a rivedere la grammatica di ogni file.
+Un'altra cosa importante: i programmi sono stati scritti interamente da **[Thealexio](https://github.com/Thealexio-exe)**, mentre la traduzione in inglese è stata fatta con l'aiuto dell'AI. Se ci sono problemi o errori nelle traduzioni mi scuso, oltre tutto con l'ultimo aggioramento la `v2.0` i commenti in italiano sono stati rimossi per riddure il numero dei file, se non sai l'inglese usa il traduttore.
 
 Infine l'obiettivo è creare una raccolta di progetti con esercizi e spiegazioni. Se avete anche voi dei progetti semplici in Cpp mi farebbe molto piacere se contribuiste a questo progetto cosi da espandere il progetto.
 
