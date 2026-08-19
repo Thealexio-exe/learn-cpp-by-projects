@@ -10,6 +10,8 @@ This is a link to a video to learn the basics of `C++`. It is a bit long, but af
 
 ## Italiano
 
+Se hai difficoltà perchè non sai l'inglese usa il traduttore integrato di google (se usi google) per capire cosa dicono i commenti 
+
 Questo programma è solo un’introduzione per chi non ha mai usato C++.  
 Ti consiglio di seguire un tutorial per imparare meglio le basi, perché da ora in poi tutti i programmi includeranno concetti come `if`, `for`, funzioni e altri argomenti più avanzati.
 
