@@ -35,7 +35,7 @@ This repository contains a collection of C++ programs created to help students l
 
 I'm still working on this project, so the repository is currently just a demo of what I want to create. If you find some problems, that's completely normal. At the moment I'm working on other projects, so this repository will not receive many updates over the next two months.
 
-Another important thing: all the programs have been written entirely by **Thealexio**, while the English translation has been made with the help of AI. If you find translation mistakes or grammatical errors, I apologize. As soon as I have more time to dedicate to this project, I will also review the grammar of every file.
+Another important thing: all the programs have been written entirely by **[Thealexio](https://github.com/Thealexio-exe)**, while the English translation has been made with the help of AI. If you find translation mistakes or grammatical errors, I apologize. As soon as I have more time to dedicate to this project, I will also review the grammar of every file.
 
 Finally, the goal is to create a collection of projects with exercises and explanations. If you also have some simple C++ projects, I would really appreciate it if you contributed to this repository and helped expand the project.
 
@@ -115,7 +115,11 @@ Below you can find the required skills and the difficulty level for each folder.
 
 ### **Contacts**
 
-If you find a bug or have a suggestion, feel free to open an Issue in the repository or contact me by email: `argenti.projects@gmail.com`
+If you find a bug or have a suggestion, feel free to open an Issue in the repository or contact me by email: 
+
+```bash
+argenti.projects@gmail.com
+```
 
 ---
 
@@ -128,7 +132,7 @@ Questa repository contiene una raccolta di programmi in C++, con lo scopo di aiu
 
 Sto ancora lavorando a questo progetto infatti la repository è ancora una demo di ciò che voglio creare, quindi se ci sono ancora alcuni problemi è normale sto al momento lavorando ad altri progetti per questo non fara molti update per i prossimi due mesi.
 
-Un'altra cosa importante: i programmi sono stati scritti interamente da **Thealexio**, mentre la traduzione in inglese è stata fatta con l'aiuto dell'AI. Se ci sono problemi o errori nelle traduzioni mi scuso, appena avrò veramente tempo da dedicare a questo progetto inizierò anche a rivedere la grammatica di ogni file.
+Un'altra cosa importante: i programmi sono stati scritti interamente da **[Thealexio](https://github.com/Thealexio-exe)**, mentre la traduzione in inglese è stata fatta con l'aiuto dell'AI. Se ci sono problemi o errori nelle traduzioni mi scuso, appena avrò veramente tempo da dedicare a questo progetto inizierò anche a rivedere la grammatica di ogni file.
 
 Infine l'obiettivo è creare una raccolta di progetti con esercizi e spiegazioni. Se avete anche voi dei progetti semplici in Cpp mi farebbe molto piacere se contribuiste a questo progetto cosi da espandere il progetto.
 
@@ -209,4 +213,8 @@ Qui sotto trovi una tabella con le competenze richieste e il livello di difficol
 
 ### **Contatti**
 
-Se trovi un bug o hai un suggerimento, puoi aprire una Issue nella repository oppure contattarmi privatamente via email: `argenti.projects@gmail.com`
+Se trovi un bug o hai un suggerimento, puoi aprire una Issue nella repository oppure contattarmi privatamente via email: 
+
+```bash
+argenti.projects@gmail.com
+```
