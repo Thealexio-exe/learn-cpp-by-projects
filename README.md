@@ -1,10 +1,10 @@
-# **🛠️ REWORK COMING SOON 🛠️**# 
+# **🛠️ REWORK COMING SOON 🛠️** 
 
-<img src="./assets/Icon/cpp.svg" width="25" > learn cpp by projects
+# <img src="./assets/Icon/cpp.svg" width="25" > learn cpp by projects
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-brightgreen)
-![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)
+![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Language](https://img.shields.io/badge/Language-IT%20%7C%20EN-red)
 ![GitHub stars](https://img.shields.io/github/stars/Thealexio-exe/learn-cpp-by-projects?style=social)
 ![Status](https://img.shields.io/badge/Status-Maintained-brightgreen)
