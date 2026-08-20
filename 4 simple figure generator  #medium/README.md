@@ -55,7 +55,7 @@ Let’s think for a moment: your goal is to create an upside-down triangle.
 **Introduzione**:
 
 Per capire questo programma devi conoscere i `for` e il loro utilizzo.
-Come spiegato nei commenti, il funzionamento è creare figure geometriche. Per ora crea solo un rombo o un triangolo, ma se vuoi puoi creare un nuovo programma che faccia figure anche più semplici.
+Come spiegato nei commenti in inglese, il funzionamento è creare figure geometriche. Per ora crea solo un rombo o un triangolo, ma se vuoi puoi creare un nuovo programma che faccia figure anche più semplici.
 
 **Soluzioni**:
 
