@@ -25,7 +25,7 @@ Here are the solutions for the [`fix_me.cpp`](./fix_me.cpp) file. They are divid
 <details>
 <summary>Solutions 1</summary>
 
-Okey, let’s reason step by step. The first error is in the functions [`void Scelta_pc()`](./fix_me.cpp#L44) and [`void logica()`](./fix_me.cpp#L53).
+Okey, let’s reason step by step. The first error is in the functions [`void Pc_choice()`](./fix_me.cpp#L44) and [`void logic()`](./fix_me.cpp#L53).
 
 In these two functions the type `void` is used, but `void` means “nothing”. From its meaning you can already understand the mistake: the function does not return anything.
 To fix this error you just need to replace `void` with `string`, because we want the function to return text as a result.
@@ -33,10 +33,10 @@ To fix this error you just need to replace `void` with `string`, because we want
 To make it clearer, here is an example of a `void` function and an `int` function:
 
 ```cpp
-void Scrivi_il_nome(int tot, string nome) {
+void write_your_name(string name) {
 
-    for (int i = 0; i <= tot; i++) {
-        cout << nome << endl;
+    for (int i = 0; i <= 10; i++) {
+        cout << name << endl;
     }
 
 }
@@ -59,7 +59,7 @@ int Somma(int a, int b) {
 
 ---
 
-The second error, which is also the hidden one, is still in [`void Scelta_pc()`](./fix_me.cpp#L44):
+The second error, which is also the hidden one, is still in [`void Pc_choice()`](./fix_me.cpp#L44):
 
 - the first is that [`srand(time(NULL))`](./fix_me.cpp#L45) is missing a `;`, which is a simple but common mistake;
 - the second is in [`int random = rand()%2;`](./fix_me.cpp#L46).
@@ -72,19 +72,19 @@ The second error, which is also the hidden one, is still in [`void Scelta_pc()`]
 
 Now let’s look more closely at the errors.
 
-The first error is in the function [`caricaStatistiche()`](./fix_me.cpp#L28). Let’s analyze it: as you can see in the example below, the mistake is already visible.
+The first error is in the function [`loadStatistics()`](./fix_me.cpp#L28). Let’s analyze it: as you can see in the example below, the mistake is already visible.
 
 ```cpp
-void caricaStatistiche() {
-    ifstream file("statistiche.txt"); 
+void loadStatistics() {
+    ifstream file("statistics.txt"); 
     if (file.is_open()) { 
-        file << vittorie << pareggi << sconfitte; 
+        file << wins << draws << losses; 
         file.close();
     }
 }
 ```
 
-With `ifstream` the program **opens and reads a file**, but in the line `file << vittorie << pareggi << sconfitte;` there is the main error.
+With `ifstream` the program **opens and reads a file**, but in the line `file << wins << draws << losses;` there is the main error.
 
 In C++ these operators mean:
 
@@ -98,9 +98,9 @@ Here the problem appears: you are telling `ifstream`, which is used for **input*
 The second error is also related to the loading functions, but this time it concerns variables.
 
 ```cpp
-int vittorie = 0;
-int sconfitte = 0;
-int pareggi = 0;
+int wins = 0;
+int losses = 0;
+int draws = 0;
 ```
 
 To understand better, keep the [`fix_me.cpp`](./fix_me.cpp) file open. If you look closely, the three variables are inside the [`main()`](./fix_me.cpp#L70-74), and this is a problem because no function outside `main()` can access them.
@@ -110,6 +110,8 @@ Try this: create a small program with a function. Inside the function define a v
 If instead you move the variable outside the function, making it global, both the function and `main()` will be able to read and modify it.
 
 </details>
+
+<br><br>
 
 # Italiano
 
@@ -134,7 +136,7 @@ Qui ti lascio subito le soluzioni del file [`fix_me.cpp`](./fix_me.cpp). Le ho d
 <details>
 <summary>Soluzioni 1</summary>
 
-Okey, ragioniamo insieme passo passo. Il primo errore si trova nelle funzioni [`void Scelta_pc()`](./fix_me.cpp#L44) e [`void logica()`](./fix_me.cpp#L53).
+Okey, ragioniamo insieme passo passo. Il primo errore si trova nelle funzioni [`void Pc_choice()`](./fix_me.cpp#L44) e [`void logic()`](./fix_me.cpp#L53).
 
 In queste due funzioni viene usato il valore `void`, ma `void` significa “nulla”. Proprio dal suo significato si può capire qual è l’errore: la funzione non restituisce niente.
 Per correggere l’errore basta sostituire `void` con `string`, perché noi vogliamo che come risultato venga restituito del testo.
@@ -142,9 +144,9 @@ Per correggere l’errore basta sostituire `void` con `string`, perché noi vogl
 Per essere sicuro che tu capisca meglio, ecco un esempio di due funzioni `void` e di una funzione `int`:
 
 ```cpp
-void Scrivi_il_nome(int tot, string nome) {
+void Scrivi_il_nome(string nome) {
 
-    for (int i = 0; i <= tot; i++) {
+    for (int i = 0; i <= 10; i++) {
         cout << nome << endl;
     }
 
@@ -152,7 +154,7 @@ void Scrivi_il_nome(int tot, string nome) {
 ```
 
 > Qui la funzione manda a schermo un valore di testo per un certo numero di volte, ma non va a modificare variabili e non restituisce nessun valore.
-> In poche parole, con `void` puoi usare una funzione se ti serve solo eseguire del codice.
+> In poche parole, con `void` puoi usare una funzione se ti serve solo eseguire del codice più volte.
 
 ```cpp
 int Somma(int a, int b) {
@@ -181,19 +183,19 @@ Il secondo errore, e anche quello segreto, si trova sempre in [`void Scelta_pc()
 
 Ora guardiamo meglio gli errori presenti.
 
-Il primo errore si trova nella funzione [`caricaStatistiche()`](./fix_me.cpp#L28). Analizziamola meglio: come puoi vedere dall'esempio qui sotto, puoi già intravedere l'errore.
+Il primo errore si trova nella funzione [`loadStatistics()`](./fix_me.cpp#L28). Analizziamola meglio: come puoi vedere dall'esempio qui sotto, puoi già intravedere l'errore.
 
 ```cpp
-void caricaStatistiche() {
-    ifstream file("statistiche.txt"); 
+void loadStatistics() {
+    ifstream file("statistics.txt"); 
     if (file.is_open()) { 
-        file << vittorie << pareggi << sconfitte; 
+        file << wins << draws << losses; 
         file.close();
     }
 }
 ```
 
-Con `ifstream` il programma **apre e legge un file**, però nella riga `file << vittorie << pareggi << sconfitte;` c'è l'errore principale.
+Con `ifstream` il programma **apre e legge un file**, però nella riga `file << wins << draws << losses;` c'è l'errore principale.
 
 Quando usi questi operatori in C++:
 
@@ -207,9 +209,9 @@ Qui si crea il problema: stai dicendo a `ifstream`, che serve per fare **input**
 Il secondo errore è sempre collegato alle funzioni di caricamento dati, ma questa volta riguarda le variabili.
 
 ```cpp
-int vittorie = 0;
-int sconfitte = 0;
-int pareggi = 0;
+int wins = 0;
+int losses = 0;
+int draws = 0;
 ```
 
 Per capire meglio, tieni aperto il file [`fix_me.cpp`](./fix_me.cpp). Se guardi bene, le tre variabili si trovano dentro il [`main()`](./fix_me.cpp#L70-74), e questo è un problema, perché nessuna funzione esterna al `main()` può accedere a quelle variabili.

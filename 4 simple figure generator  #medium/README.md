@@ -42,11 +42,11 @@ To complete the rest of the program, here is the correct result, then I will exp
 
 Let’s think for a moment: your goal is to create an upside-down triangle.
 
-* The first space to fill is simply adding spaces, with a normal `for`.
-* The second space to fill instead needs to decrease the number of `*`. How?
+- The first space to fill is simply adding spaces, with a normal `for`.
+- The second space to fill instead needs to decrease the number of `*`. How?
 
-  * Basically it uses the same logic as `j < 2 * i - 1`
-  * It adds `(giri-i)`, so it makes the number of `*` decrease
+  - Basically it uses the same logic as `j < 2 * i - 1`
+  - It adds `(giri-i)`, so it makes the number of `*` decrease
 
 </details>
 
@@ -90,10 +90,10 @@ Per completare il resto del programma, ecco il risultato corretto, poi ti spiego
 
 Ragioniamo un attimo: il tuo obiettivo è creare un triangolo al contrario.
 
-* Il primo spazio da riempire è semplicemente aggiungere spazi, con un normale `for`.
-* Il secondo spazio da riempire invece serve a diminuire il numero di `*`. Come?
+- Il primo spazio da riempire è semplicemente aggiungere spazi, con un normale `for`.
+- Il secondo spazio da riempire invece serve a diminuire il numero di `*`. Come?
 
-  * Di base usa la stessa logica di `j < 2 * i - 1`
-  * Aggiunge `(giri-i)`, così fa diminuire il numero di `*`
+  - Di base usa la stessa logica di `j < 2 * i - 1`
+  - Aggiunge `(giri-i)`, così fa diminuire il numero di `*`
 
 </details>
