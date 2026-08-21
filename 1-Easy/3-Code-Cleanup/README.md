@@ -21,10 +21,10 @@ The first thing I recommend is to use the **`Enter`** key as much as possible. W
 
 ```cpp
     cout << "Enter the first number: ";
-    cin >> numero_1;
+    cin >> num_1;
 
     cout << "Enter the second number: ";
-    cin >> numero_2;
+    cin >> num_2;
 ```
 
 As you can see, this small space makes the program easier to read and also nicer to look at.
@@ -86,10 +86,10 @@ La prima cosa che ti consiglio è di usare il tasto **`Invio`** il più possibil
 
 ```cpp
     cout << "Inserisci il primo numero: ";
-    cin >> numero_1;
+    cin >> num_1;
 
     cout << "Inserisci il secondo numero: ";
-    cin >> numero_2;
+    cin >> num_2;
 ```
 
 Come puoi notare, questo piccolo spazio rende il programma più facile da leggere e anche più piacevole da vedere.
