@@ -1,3 +1,4 @@
+// progects name: triangle classifier
 #include <iostream>
 
 using namespace std;

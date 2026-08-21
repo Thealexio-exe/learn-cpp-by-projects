@@ -1,4 +1,4 @@
-# Triangle Classifier
+# IF Condicions // Triangle classifier
 
 Select the languages: [English](#english) | [Italiano](#italiano)
 
@@ -63,7 +63,7 @@ there are two ways to solve this.
 
 ### Solution 1 (recommended)
 
-Use the simpler logic from [`triangle-classifier.cpp`](./triangle-classifier.cpp).
+Use the simpler logic from [`If_condicions.cpp`](./If_condicions.cpp).
 
 ### Solution 2
 
@@ -144,7 +144,7 @@ ci sono due modi per correggerlo.
 
 ### Soluzione 1 (consigliata)
 
-Usare la logica più semplice presente in [`triangle-classifier.cpp`](./triangle-classifier.cpp).
+Usare la logica più semplice presente in [`If_condicions.cpp`](./If_condicions.cpp).
 
 ### Soluzione 2
 
