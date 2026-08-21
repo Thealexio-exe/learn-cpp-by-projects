@@ -1,4 +1,4 @@
-# **🛠️ REWORK COMING SOON 🛠️** 
+# **🛠️ Im working on new v3.0  🛠️** 
 
 # <img src="./assets/Icon/cpp.svg" width="25" > learn cpp by projects
 
@@ -79,24 +79,9 @@ Below you can find the required skills and the difficulty level for each folder.
 <summary>Click to view the table</summary>
 
 > ---
->
-> [**1 For Start**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/1%20For%20Start%20%20%23super-esye)
-> Perfect for people who have never used C++. No previous knowledge required.
->
-> [**2 Triangle Classifier**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/2%20triangle%20classifier%20%20%23esye)
-> Requires knowledge of `if` statements and conditions.
->
-> [**3 Code Cleanup**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/3%20Code%20Cleanup%20%20%23medium)
-> Learn how to write clean, readable code with good formatting.
->
-> [**4 Simple Figure Generator**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/4%20simple%20figure%20generator%20%20%23medium)
-> Requires knowledge of `for` loops.
->
-> [**5 Rock, Paper, Scissors**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/5%20Rock%2C%20Paper%2C%20Scissors%20%20%23hard)
-> Requires functions and the `cstdlib`, `ctime` and `fstream` libraries.
->
-> This list will be updated in the future.
->
+> Esye
+> Medium
+> Hard
 > ---
 
 </details>
@@ -108,8 +93,8 @@ Below you can find the required skills and the difficulty level for each folder.
 - ✔️ **v1.0** - Initial development of the project
 - ✔️ **v1.1 – v1.6** - Structure improvements, new content, and bug fixes
 - ✔️ **v1.6 – v1.9** - Regular updates (planned for the next few months)
-- 🛠️ **v2.0** - reorganization for reduction the number of files
-- ✖️ **v3.0** - Complete repository reorganization and new project structure
+- ✔️ **v2.0** - reorganization for reduction the number of files
+- 🛠️ **v3.0** - Complete repository reorganization and new project structure
 
 ---
 
@@ -177,24 +162,9 @@ Qui sotto trovi una tabella con le competenze richieste e il livello di difficol
 <summary>Clicca per vedere la tabella</summary>
 
 > ---
->
-> [**1 For Start**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/1%20For%20Start%20%20%23super-esye)
-> Perfetta per chi non ha mai usato il C++. Nessuna competenza richiesta.
->
-> [**2 Triangle Classifier**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/2%20triangle%20classifier%20%20%23esye)
-> Richiede l'utilizzo degli `if` e delle condizioni.
->
-> [**3 Code Cleanup**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/3%20Code%20Cleanup%20%20%23medium)
-> Serve a imparare a scrivere codice leggibile e con una buona sintassi.
->
-> [**4 Simple Figure Generator**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/4%20simple%20figure%20generator%20%20%23medium)
-> Richiede l'utilizzo dei cicli `for`.
->
-> [**5 Rock, Paper, Scissors**](https://github.com/Thealexio-exe/learn-cpp-by-projects/tree/main/5%20Rock%2C%20Paper%2C%20Scissors%20%20%23hard)
-> Richiede l'utilizzo di funzioni e delle librerie `cstdlib`, `ctime` e `fstream`.
->
-> In futuro questa lista verrà aggiornata.
->
+> Esye
+> Medium
+> Hard
 > ---
 
 </details>
@@ -206,8 +176,8 @@ Qui sotto trovi una tabella con le competenze richieste e il livello di difficol
 - ✔️ **v1.0** Inizio dello sviluppo del progetto
 - ✔️ **v1.1 – v1.6**  Miglioramenti alla struttura, nuovi contenuti e correzioni
 - ✔️ **v1.6 – v1.9**  Aggiornamenti periodici (previsti nei prossimi 2 mesi)
-- 🛠️ **v2.0** Riorganizzazione, obbietivo riddurre il numero di file
-- ✖️ **v3.0** Riorganizzazione completa della repository e nuova struttura
+- ✔️ **v2.0** Riorganizzazione, obbietivo riddurre il numero di file
+- 🛠️ **v3.0** Riorganizzazione completa della repository e nuova struttura
 
 ---
 
