@@ -1,6 +1,6 @@
 # **🛠️ Im working on new v3.0 — REWORK 🛠️**
 
-# <img src="./assets/Icon/cpp.svg" width="25" > learn cpp by projects
+![Banner Learn C++ by Projects](./assets/img/banner.png)
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-brightgreen)
