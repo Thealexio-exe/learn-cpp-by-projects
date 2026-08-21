@@ -6,10 +6,7 @@
 ![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-brightgreen)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Language](https://img.shields.io/badge/Language-IT%20%7C%20EN-red)
-![GitHub stars](https://img.shields.io/github/stars/Thealexio-exe/learn-cpp-by-projects?style=social)
 ![Status](https://img.shields.io/badge/Status-Maintained-brightgreen)
-![GitHub contributors](https://img.shields.io/github/contributors/Thealexio-exe/learn-cpp-by-projects)
-![Made with Love](https://img.shields.io/badge/Made%20with-%E2%9D%A4-red)
 
 ⭐ If you like this project, pls leaving a star!
 
