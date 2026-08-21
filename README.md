@@ -1,4 +1,4 @@
-# **🛠️ Im working on new v3.0  🛠️** 
+# **🛠️ Im working on new v3.0 — REWORK TOMORROW ;) 🛠️**
 
 # <img src="./assets/Icon/cpp.svg" width="25" > learn cpp by projects
 
