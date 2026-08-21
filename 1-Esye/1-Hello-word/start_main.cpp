@@ -18,14 +18,16 @@ using namespace std;
 // Code inside main() is executed from top to bottom.
 int main() {
 
+    // This prints text on the screen.
+    cout << "Hello Word";
+
     // A variable is a container for data that can change over time.
-    // First you write the type (int = integer numbers),
+    // First you write the type for exmple int = integer numbers (1,2,3, ecc... but not "3.2" or "abc")
     // then the name of the variable, and then its value.
     // You can also change its value later.
     int var = 0;
     var = 5;
-
-    // This prints text on the screen.
+    
     // Output: result: 5
     cout << "result: " << var << endl;
 
