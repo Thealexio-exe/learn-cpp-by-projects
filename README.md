@@ -76,7 +76,7 @@ Below you can find the required skills and the difficulty level for each folder.
 <summary>Click to view the table</summary>
 
 > ---
-> Esye
+> easy
 > Medium
 > Hard
 > ---
@@ -159,7 +159,7 @@ Qui sotto trovi una tabella con le competenze richieste e il livello di difficol
 <summary>Clicca per vedere la tabella</summary>
 
 > ---
-> Esye
+> easy
 > Medium
 > Hard
 > ---
