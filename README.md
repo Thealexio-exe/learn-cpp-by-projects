@@ -5,8 +5,9 @@
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
 ![Beginner Friendly](https://img.shields.io/badge/Beginner-Friendly-brightgreen)
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
-![Language](https://img.shields.io/badge/Language-IT%20%7C%20EN-red)
+![Language](https://img.shields.io/badge/Language-IT%20%7C%20EN-blue)
 ![Status](https://img.shields.io/badge/Status-Maintained-brightgreen)
+![Version](https://img.shields.io/badge/Version-v3.09-blue)
 
 ⭐ If you like this project, pls leaving a star!
 
