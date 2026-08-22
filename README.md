@@ -7,7 +7,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Language](https://img.shields.io/badge/Language-IT%20%7C%20EN-blue)
 ![Status](https://img.shields.io/badge/Status-Maintained-brightgreen)
-![Version](https://img.shields.io/badge/Version-v3.09-blue)
+![Version](https://img.shields.io/badge/Version-v3.0-blue)
 
 ⭐ If you like this project, pls leaving a star!
 

@@ -1,4 +1,4 @@
-# Simple figure generator
+# For WLoops Advanced / Simple figure generator
 
 Select the languages: [English](#english) | [Italiano](#italiano)
 
@@ -14,7 +14,7 @@ As explained in the comments, the goal is to create geometric figures. For now i
 <details>
 <summary>Click to see the solutions</summary>
 
-To solve `fix_me.cpp`, you need to fix 3 problems, the first one is here:
+To solve [`fix_me.cpp`](./fix_me.cpp), you need to fix 3 problems, the first one is here:
 
 ```cpp
     for (int j = 0; j < 2 * i; j++) {
@@ -22,7 +22,7 @@ To solve `fix_me.cpp`, you need to fix 3 problems, the first one is here:
     }
 ```
 
-> Simply **add** `-1`, so it becomes `j < 2 * i - 1`, because otherwise the result becomes even. Check the `first-figure-generator.cpp` file more carefully.
+> Simply **add** `-1`, so it becomes `j < 2 * i - 1`, because otherwise the result becomes even. Check the [`For_Loops_Advanced.cpp`](./For_Loops_Advanced.cpp) file more carefully.
 
 To complete the rest of the program, here is the correct result, then I will explain everything.
 
@@ -62,7 +62,7 @@ Come spiegato nei commenti in inglese, il funzionamento è creare figure geometr
 <details>
 <summary>Clicca per vedere le soluzioni</summary>
 
-Per risolvere `fix_me.cpp` devi risolvere 3 problemi, il primo si trova qui:
+Per risolvere [`fix_me.cpp`](./fix_me.cpp) devi risolvere 3 problemi, il primo si trova qui:
 
 ```cpp
     for (int j = 0; j < 2 * i; j++) {
@@ -70,7 +70,7 @@ Per risolvere `fix_me.cpp` devi risolvere 3 problemi, il primo si trova qui:
     }
 ```
 
-> Semplicemente devi **aggiungere** `-1`, quindi `j < 2 * i - 1`, perché altrimenti il risultato torna pari. Controlla meglio il file `first-figure-generator.cpp`.
+> Semplicemente devi **aggiungere** `-1`, quindi `j < 2 * i - 1`, perché altrimenti il risultato torna pari. Controlla meglio il file [`For_Loops_Advanced.cpp`](./For_Loops_Advanced.cpp).
 
 Per completare il resto del programma, ecco il risultato corretto, poi ti spiego tutto.
 
