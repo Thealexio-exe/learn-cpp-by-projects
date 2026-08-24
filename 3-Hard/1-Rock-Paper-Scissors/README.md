@@ -6,7 +6,7 @@ Select the languages: [English](#english) | [Italiano](#italiano)
 
 ## Introduction:
 
-This time I created 2 versions of the file [`game1.cpp`](./game1.cpp) and [`game2.cpp`](./game2.cpp).
+This time I created 2 versions of the file [`game_basic.cpp`](./game_basic.cpp) and [`game_plus.cpp`](./game_plus.cpp).
 
 In the first one, it is simply explained how to create and how Rock Paper Scissors works in C++, using functions, strings and random numbers. Subsequently, in the second one, two functions were added to manipulate `.txt` files and save variables outside the program.
 
@@ -117,7 +117,7 @@ If instead you move the variable outside the function, making it global, both th
 
 ## Introduzione:
 
-Questa volta ho fatto 2 versioni del file [`game1.cpp`](./game1.cpp) e [`game2.cpp`](./game2.cpp).
+Questa volta ho fatto 2 versioni del file [`game_basic.cpp`](./game_basic.cpp) e [`game_plus.cpp`](./game_plus.cpp).
 
 Nel primo viene spiegato semplicemente come creare e come funziona Sasso Carta Forbici in C++, attraverso funzioni, string e numeri casuali. Successivamente, nel secondo, sono state aggiunte due funzioni per manipolare file `.txt` e salvare le variabili al di fuori del programma.
 
