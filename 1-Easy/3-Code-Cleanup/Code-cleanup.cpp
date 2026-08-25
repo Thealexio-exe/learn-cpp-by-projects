@@ -1,5 +1,5 @@
 #include <iostream> 
-// This time I left the entire explanation in the README.md file.
+// This time I left the entire explanation in the README file.
 
 using namespace std;
 
@@ -7,7 +7,7 @@ using namespace std;
 int Sum(int num1, int num2) {
     int sum = num1 + num2;
 
-    cout << "sum calculated\n";
+    cout << "sum calculated" << endl;
 
     return sum;
 }
@@ -28,9 +28,9 @@ int main() {
 
     // Check the value of the sum variable
     if (sum <= 10) {
-        cout << "Sum is less than ten\n";
+        cout << "Sum is less than ten" << endl;
     } else {
-        cout << "Sum is greater than 10\n";
+        cout << "Sum is greater than 10" << endl;
     }
 
     return 0;

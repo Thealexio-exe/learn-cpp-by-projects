@@ -1,5 +1,19 @@
 # Code-cleanup
 
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <strong>Tag:</strong>
+            </td>
+            <td>
+                <img alt="syntax" src="https://img.shields.io/badge/-syntax-green">
+                <img alt="function" src="https://img.shields.io/badge/-function-red">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 Select the languages: [English](#english) | [Italiano](#italiano)
 
 # English

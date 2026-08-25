@@ -2,7 +2,7 @@
 using namespace std;
 int Sum(int var1, int var2) {
     int var = var1+var2;
-    cout <<"sum calculated";
+    cout <<"sum calculated"<<endl;
     return var;
 }
 int main() {
@@ -12,8 +12,8 @@ int main() {
     cin>>b;
     var=Sum(a,b);
     cout<<"the result is:"<<var<< endl;
-    if(var<=10){cout<<"sum less than ten\n";} 
-    else{cout<<"sum greater than 10\n";}
+    if(var<=10){cout<<"sum less than ten"<<endl;} 
+    else{cout<<"sum greater than 10"<<endl;}
     return 0;
 }
 
