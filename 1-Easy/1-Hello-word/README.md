@@ -1,5 +1,20 @@
 # Hello word
 
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <strong>Tag:</strong>
+            </td>
+            <td>
+                <img alt="cout" src="https://img.shields.io/badge/-cout-blue">
+                <img alt="variables" src="https://img.shields.io/badge/-variables-green">
+                <img alt="comments" src="https://img.shields.io/badge/-comments-yellow">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 Select the languages: [English](#english) | [Italiano](#italiano)
 
 ## English
