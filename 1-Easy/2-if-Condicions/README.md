@@ -96,7 +96,7 @@ else if (
 
 This solution works correctly but becomes longer and harder to read.
 
-</details>
+</details> <br>
 
 # Italiano
 

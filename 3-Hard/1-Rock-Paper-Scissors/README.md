@@ -111,7 +111,7 @@ If instead you move the variable outside the function, making it global, both th
 
 </details>
 
-<br><br>
+<br>
 
 # Italiano
 

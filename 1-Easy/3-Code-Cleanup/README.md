@@ -79,7 +79,7 @@ In short, the more your result is similar to that file, the better. A small note
 
 The same goes for the comments. If you want to add a few more comments or improve the file [`fix_me.cpp`](./fix_me.cpp), feel free to do it. Just remember to keep good syntax and write code that is easy to read.
 
-</details>
+</details> <br>
 
 # Italiano
 
