@@ -1,5 +1,20 @@
 # IF Condicions // Triangle classifier
 
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <strong>Tag:</strong>
+            </td>
+            <td>
+                <img alt="variables" src="https://img.shields.io/badge/-variables-green">
+                <img alt="cin" src="https://img.shields.io/badge/-cout-green">
+                <img alt="if/else" src="https://img.shields.io/badge/-if%2Felse-yellow">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 Select the languages: [English](#english) | [Italiano](#italiano)
 
 # English

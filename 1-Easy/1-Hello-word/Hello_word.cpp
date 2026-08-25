@@ -11,7 +11,7 @@ When you use commands like cout, you normally have to write std::cout.
 This line allows you to avoid writing "std::" every time.
 
 Note: this is fine for learning, but in larger projects it is better
-to avoid it to prevent naming conflicts.
+to avoid it to prevent bug.
 */
 using namespace std;
 
