@@ -7,9 +7,9 @@
             <strong>Tag:</strong>
             </td>
             <td>
-                <img alt="cout" src="https://img.shields.io/badge/-cout-blue">
+                <img alt="cout" src="https://img.shields.io/badge/-cout-green">
                 <img alt="variables" src="https://img.shields.io/badge/-variables-green">
-                <img alt="comments" src="https://img.shields.io/badge/-comments-yellow">
+                <img alt="comments" src="https://img.shields.io/badge/-comments-green">
             </td>
         </tr>
     </tbody>
