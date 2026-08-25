@@ -1,5 +1,19 @@
 # For WLoops Advanced / Simple figure generator
 
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <strong>Tag:</strong>
+            </td>
+            <td>
+                <img alt="for" src="https://img.shields.io/badge/-for-yellow">
+                <img alt="loops" src="https://img.shields.io/badge/-loops-yellow">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
 Select the languages: [English](#english) | [Italiano](#italiano)
 
 # English
@@ -48,7 +62,7 @@ Let’s think for a moment: your goal is to create an upside-down triangle.
   - Basically it uses the same logic as `j < 2 * i - 1`
   - It adds `(giri-i)`, so it makes the number of `*` decrease
 
-</details>
+</details> <br>
 
 # Italiano
 
