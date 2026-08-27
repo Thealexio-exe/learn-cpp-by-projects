@@ -1,0 +1,51 @@
+name: Code Check
+
+on:
+  push:
+    branches: [ "main" ]
+  pull_request:
+    branches: [ "main" ]
+
+permissions:
+  contents: read
+
+jobs:
+  check-cpp:
+    runs-on: windows-latest
+
+    steps:
+    - name: Checkout repository
+      uses: actions/checkout@v4
+      with:
+        fetch-depth: 0
+
+    - name: Get modified files
+      id: changed-files
+      uses: tj-actions/changed-files@v45
+      with:
+        files: |
+          **/*.cpp
+          **/*.h
+          **/*.hpp
+
+    - name: Setup MSVC Compiler (Visual Studio)
+      if: steps.changed-files.outputs.any_changed == 'true'
+      uses: ilammy/msvc-dev-cmd@v1
+
+    - name: Compile modified C++ files
+      if: steps.changed-files.outputs.any_changed == 'true'
+      shell: powershell
+      run: |
+        # Recupera la lista dei file separati da spazio
+        $files = "${{ steps.changed-files.outputs.all_changed_files }}" -split " "
+        
+        foreach ($file in $files) {
+            if ($file -match '\.cpp$') {
+                echo "Sto verificando il file: $file"
+                # /Zs esegue solo il controllo della sintassi senza creare il file .exe finale
+                cl.exe /Zs /EHsc $file
+                if ($LASTEXITCODE -ne 0) {
+                    exit 1
+                }
+            }
+        }
