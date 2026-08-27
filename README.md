@@ -21,7 +21,7 @@
 >
 > - [Introduction](#introduction) | [Introduzione](#introduzione)
 > - [How to use this repository](#how-to-use-this-repository) | [Come usare la repository](#come-usare-la-repository)
-> - [Difficulty and skills](#difficulty-and-skills) | [Difficoltà e competenze](#difficoltà-e-competenze)
+> - [Difficulty and skills](#difficulty-and-tags) | [Difficoltà e competenze](#difficoltà-e-tags)
 > - [RoadMaps-EN](#roadmap) | [RoadMaps-IT](#roadmap-1)
 > - [Contacts](#contacts) | [Contatti](#contatti)
 > ---
@@ -70,20 +70,8 @@ I organized the projects by difficulty. Inside every folder you will find differ
 
 ---
 
-### **Difficulty and skills**
+### **Difficulty and Tags**
 
-Below you can find the required skills and the difficulty level for each folder.
-
-<details>
-<summary>Click to view the table</summary>
-
-> ---
-> easy
-> Medium
-> Hard
-> ---
-
-</details>
 
 ---
 
@@ -152,18 +140,15 @@ Ho organizzato i vari programmi in ordine di difficoltà. In ogni cartella trove
 
 ---
 
-### **Difficoltà e competenze**
+### **Difficoltà e Tags**
 
-Qui sotto trovi una tabella con le competenze richieste e il livello di difficoltà di ogni cartella.
+Ogni progetto include una sezione Tag all'inizio del README che riassume i concetti chiave trattati.<br>
+Oltre tutto ho aggiunto 3 colorazzioni per ogni tag:
 
-<details>
-<summary>Clicca per vedere la tabella</summary>
+- 🟢 **Fondamentale**: Concetti semplici, ben spiegati nei commenti o già acquisiti in precedenza. Perfetto per chi inizia.
+- 🟡 **Intermedio**: Concetti semplici ma che richiedono una pre-conoscenza dell'argomento. Assicurati di aver completato i progetti precedenti.
+- 🔴 **Non Essenziale**: Argomenti usati solo come esempio o contesto. Non è necessario comprenderli completamente per il progetto.
 
-> ---
-> easy
-> Medium
-> Hard
-> ---
 
 </details>
 
