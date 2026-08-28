@@ -169,7 +169,7 @@ Oltre tutto ho aggiunto 3 colorazzioni per ogni tag:
 Per quanto riguarda l'ordine di difficoltà, ho inserito 3 cartelle [`Easy`](./1-Easy/), [`Medium`](./2-Medium/), [`Hard`](./3-Hard/):
 
 - [`Easy`](./1-Easy/) contiene tutti i programmi con le basi del `C++`, per esempio le condizioni, variabili, ecc...
-- [`edium`](./2-Medium/) contiene gli approfondimenti degli argomenti in Easy e argomenti un po' più avanzati come le funzioni o nuove librerie
+- [`Medium`](./2-Medium/) contiene gli approfondimenti degli argomenti in Easy e argomenti un po' più avanzati come le funzioni o nuove librerie
 - [`Hard`](./3-Hard/) contiene tutti i progetti complessi con più librerie, codice strutturato con l'obiettivo di aiutare e ispirare
 
 ---
