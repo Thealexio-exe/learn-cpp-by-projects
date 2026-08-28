@@ -21,7 +21,8 @@
 >
 > - [Introduction](#introduction) | [Introduzione](#introduzione)
 > - [How to use this repository](#how-to-use-this-repository) | [Come usare la repository](#come-usare-la-repository)
-> - [Difficulty and skills](#difficulty-and-tags) | [Difficoltà e competenze](#difficoltà-e-tags)
+> - [Tag](#tags) | [Tag](#tags)
+> - [Folders Structure](#folders-structure) | [`struttura-delle-cartelle`](#struttura-delle-cartelle)
 > - [RoadMaps-EN](#roadmap) | [RoadMaps-IT](#roadmap-1)
 > - [Contacts](#contacts) | [Contatti](#contatti)
 > ---
@@ -70,7 +71,7 @@ I organized the projects by difficulty. Inside every folder you will find differ
 
 ---
 
-### **Difficulty and Tags**
+### **Tags**
 
 Each project includes a Tags section at the beginning of the README that summarizes the key concepts covered.<br>
 I have also added three color-coded categories for each tag:
@@ -78,6 +79,14 @@ I have also added three color-coded categories for each tag:
 - 🟢 **Fundamental**: Simple concepts that are well-explained in the comments or represent prior knowledge. Perfect for beginners.
 - 🟡 **Intermediate**: Simple concepts that require some background knowledge of the topic. Make sure you have completed the previous projects.
 - 🔴 **Non-Essential**: Topics used only for examples or context. A full understanding is not required for the project.
+
+### Folders Structure
+
+Regarding the order of difficulty, I have included three folders: [`Easy`](./1-Easy/), [`Medium`](./2-Medium/), and [`Hard`](./3-Hard/):
+
+- [`Easy`](./1-Easy/) contains programs covering C++ basics, such as conditionals, variables, etc.
+- [`Medium`](./2-Medium/) contains material that expands on the topics from the "Easy" folder, as well as slightly more advanced concepts like functions and new libraries.
+- [`Hard`](./3-Hard/) contains complex projects involving multiple libraries and structured code, designed to help and inspire.
 
 ---
 
@@ -146,7 +155,7 @@ Ho organizzato i vari programmi in ordine di difficoltà. In ogni cartella trove
 
 ---
 
-### **Difficoltà e Tags**
+### **Tags**
 
 Ogni progetto include una sezione Tag all'inizio del README che riassume i concetti chiave trattati.<br>
 Oltre tutto ho aggiunto 3 colorazzioni per ogni tag:
@@ -155,8 +164,13 @@ Oltre tutto ho aggiunto 3 colorazzioni per ogni tag:
 - 🟡 **Intermedio**: Concetti semplici ma che richiedono una pre-conoscenza dell'argomento. Assicurati di aver completato i progetti precedenti.
 - 🔴 **Non Essenziale**: Argomenti usati solo come esempio o contesto. Non è necessario comprenderli completamente per il progetto.
 
+### Struttura delle Cartelle
 
-</details>
+Per quanto riguarda l'ordine di difficoltà, ho inserito 3 cartelle [`Easy`](./1-Easy/), [`Medium`](./2-Medium/), [`Hard`](./3-Hard/):
+
+- [`Easy`](./1-Easy/) contiene tutti i programmi con le basi del `C++`, per esempio le condizioni, variabili, ecc...
+- [`edium`](./2-Medium/) contiene gli approfondimenti degli argomenti in Easy e argomenti un po' più avanzati come le funzioni o nuove librerie
+- [`Hard`](./3-Hard/) contiene tutti i progetti complessi con più librerie, codice strutturato con l'obiettivo di aiutare e ispirare
 
 ---
 
