@@ -72,6 +72,12 @@ I organized the projects by difficulty. Inside every folder you will find differ
 
 ### **Difficulty and Tags**
 
+Each project includes a Tags section at the beginning of the README that summarizes the key concepts covered.<br>
+I have also added three color-coded categories for each tag:
+
+- 🟢 **Fundamental**: Simple concepts that are well-explained in the comments or represent prior knowledge. Perfect for beginners.
+- 🟡 **Intermediate**: Simple concepts that require some background knowledge of the topic. Make sure you have completed the previous projects.
+- 🔴 **Non-Essential**: Topics used only for examples or context. A full understanding is not required for the project.
 
 ---
 
