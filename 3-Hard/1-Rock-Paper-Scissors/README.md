@@ -1,5 +1,23 @@
 # Rock Paper Scissors
 
+<table>
+    <tbody>
+        <tr>
+            <td>
+            <strong>Tag:</strong>
+            </td>
+            <td>
+                <img alt="String" src="https://img.shields.io/badge/-string-green">
+                <img alt="function " src="https://img.shields.io/badge/-function-yellow">
+                <img alt="cstdlib " src="https://img.shields.io/badge/-cstdlib-yellow">
+                <img alt="ctime " src="https://img.shields.io/badge/-ctime-yellow">
+                <img alt="fstream " src="https://img.shields.io/badge/-fstream-yellow">
+            </td>
+        </tr>
+    </tbody>
+</table>
+
+
 Select the languages: [English](#english) | [Italiano](#italiano)
 
 # English
