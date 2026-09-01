@@ -19,9 +19,9 @@ If you want to add a new project, follow these steps:
 If you don't know how to contribute on GitHub, you have two choices: either install [`GitHub Desktop`](https://desktop.github.com/download/) or you can use the slightly more complex version, using [`Git`](https://git-scm.com/install/). Depending on what you use, I have left two different guides.
 
 <details>
-<summary><img src="https://skillicons.dev/icons?i=github"> Click here to see the GitHub Desktop version</summary>
-
-1. 🍴 **Fork the repository**
+<summary><img src="https://skillicons.dev/icons?i=github" width="20"> Click here to see the GitHub Desktop version</summary>
+<br>
+1. **Fork the repository**
 
 First, open the repository on GitHub.<br>
 Click the Fork button in the top-right corner and create a fork under your own GitHub account.<br>
@@ -77,8 +77,8 @@ Finally, click Create Pull Request.
 
 <details>
 
-<summary><img src="https://skillicons.dev/icons?i=git"> Click here to see the Git version</summary>
-
+<summary><img src="https://skillicons.dev/icons?i=git" width="20"> Click here to see the Git version</summary>
+<br>
 To contribute, you need to have Git installed. Afterwards, copy and paste these commands.<br>
 This creates a clone of the repository on your PC, so you can add your files.
 
