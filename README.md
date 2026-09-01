@@ -1,4 +1,4 @@
-# **🛠️ Im working on new v3.0 — REWORK 🛠️**
+# **🛠️ Version 3.0 completed, currently under review. 🛠️**
 
 ![Banner Learn C++ by Projects](./assets/img/banner.png)
 
