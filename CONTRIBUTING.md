@@ -1,9 +1,9 @@
-# **Contributing**
+# 🤝 **Contributing**
 
 If you want to contribute to this project, it would help me a lot. I have left a complete guide below with the various standards to follow.<br>
 Before continuing, keep in mind that you can contribute either by improving the current projects, fixing bugs, typos, errors, etc., or by adding a new project. For this part, I have left the complete procedure below.
 
-## Adding a new project
+## 🆕 Adding a new project
 
 If you want to add a new project, follow these steps:
 
@@ -14,14 +14,14 @@ If you want to add a new project, follow these steps:
 - I can also take care of the latter, but it will take more time.
 - Finally, choose the difficulty of the exercise, whether to put it in Easy, Medium, or Hard.
 
-## How to contribute
+## 🛠️ How to contribute
 
 If you don't know how to contribute on GitHub, you have two choices: either install [`GitHub Desktop`](https://desktop.github.com/download/) or you can use the slightly more complex version, using [`Git`](https://git-scm.com/install/). Depending on what you use, I have left two different guides.
 
 <details>
-<summary>Click here to see the GitHub Desktop version</summary>
+<summary><img src="https://skillicons.dev/icons?i=github"> Click here to see the GitHub Desktop version</summary>
 
-1. **Fork the repository**
+1. 🍴 **Fork the repository**
 
 First, open the repository on GitHub.<br>
 Click the Fork button in the top-right corner and create a fork under your own GitHub account.<br>
@@ -77,10 +77,9 @@ Finally, click Create Pull Request.
 
 <details>
 
-<summary>Click here to see the Git version</summary>
+<summary><img src="https://skillicons.dev/icons?i=git"> Click here to see the Git version</summary>
 
-To contribute, you need to have Git installed. Afterwards, copy and paste these commands.
-
+To contribute, you need to have Git installed. Afterwards, copy and paste these commands.<br>
 This creates a clone of the repository on your PC, so you can add your files.
 
 ```bash
