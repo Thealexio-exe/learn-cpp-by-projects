@@ -1,4 +1,4 @@
-# **🛠️ Version 3.0 completed, currently under review. 🛠️**
+# **🛠️ I'm moving to the next version *4.0* around September 15–18. 🛠️**
 
 ![Banner Learn C++ by Projects](./assets/img/banner.png)
 
