@@ -21,7 +21,8 @@ If you don't know how to contribute on GitHub, you have two choices: either inst
 <details>
 <summary><img src="https://skillicons.dev/icons?i=github" width="20"> Click here to see the GitHub Desktop version</summary>
 <br>
-1. **Fork the repository**
+  
+ 1. **Fork the repository**
 
 First, open the repository on GitHub.<br>
 Click the Fork button in the top-right corner and create a fork under your own GitHub account.<br>
@@ -79,6 +80,7 @@ Finally, click Create Pull Request.
 
 <summary><img src="https://skillicons.dev/icons?i=git" width="20"> Click here to see the Git version</summary>
 <br>
+
 To contribute, you need to have Git installed. Afterwards, copy and paste these commands.<br>
 This creates a clone of the repository on your PC, so you can add your files.
 
