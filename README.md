@@ -7,7 +7,7 @@
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 ![Language](https://img.shields.io/badge/Language-IT%20%7C%20EN-blue)
 ![Status](https://img.shields.io/badge/Status-Maintained-brightgreen)
-![Version](https://img.shields.io/badge/Version-v3.0-blue)
+![Version](https://img.shields.io/badge/Version-v4.0-blue)
 ![Code Check](https://github.com/Thealexio-exe/learn-cpp-by-projects/actions/workflows/msbuild.yml/badge.svg)
 
 ⭐ If you like this project, pls leaving a star!
