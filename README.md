@@ -1,4 +1,4 @@
-# **🛠️ I'm moving to the next version *4.0* around September 15–18. 🛠️**
+# **🛠️ Version 4.0 is starting, I will begin adding programs now. 🛠️**
 
 ![Banner Learn C++ by Projects](./assets/img/banner.png)
 
@@ -94,8 +94,8 @@ Regarding the order of difficulty, I have included three folders: [`Easy`](./1-E
 
 - ✔️ **v1.0** - Initial development of the project
 - ✔️ **v2.0** - reorganization for reduction the number of files
-- 🛠️ **v3.0** - Complete repository reorganization and new project structure
-- ❌ **v4.0** add as many programs as possible
+- ✔️ **v3.0** - Complete repository reorganization and new project structure
+- 🛠️ **v4.0** add as many programs as possible
 
 ---
 
@@ -178,8 +178,8 @@ Per quanto riguarda l'ordine di difficoltà, ho inserito 3 cartelle [`Easy`](./1
 
 - ✔️ **v1.0** Inizio dello sviluppo del progetto
 - ✔️ **v2.0** Riddurre il numero di file
-- 🛠️ **v3.0** Riorganizzazione completa della repository e nuova struttura
-- ❌ **v4.0** aggiungere più programmi possibili
+- ✔️ **v3.0** Riorganizzazione completa della repository e nuova struttura
+- 🛠️ **v4.0** aggiungere più programmi possibili
 
 ---
 
