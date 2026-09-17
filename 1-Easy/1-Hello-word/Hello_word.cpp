@@ -24,7 +24,7 @@ int main() {
     // A variable is a container for data that can change over time.
     // First you write the type for exmple int = integer numbers (1,2,3, ecc... but not "3.2" or "abc")
     // then the name of the variable, and then its value.
-    // You can also change its value later.
+    // You can also learn the types of value in the next folder (2-types-of-variables).
     int var = 0;
     var = 5;
     
