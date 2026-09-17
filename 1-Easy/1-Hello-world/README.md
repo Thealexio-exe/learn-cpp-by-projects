@@ -1,4 +1,4 @@
-# Hello word
+# Hello world
 
 <table>
     <tbody>

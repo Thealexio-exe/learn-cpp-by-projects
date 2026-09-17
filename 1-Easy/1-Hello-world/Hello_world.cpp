@@ -19,7 +19,7 @@ using namespace std;
 int main() {
 
     // This prints text on the screen.
-    cout << "Hello Word";
+    cout << "Hello World";
 
     // A variable is a container for data that can change over time.
     // First you write the type for exmple int = integer numbers (1,2,3, ecc... but not "3.2" or "abc")
