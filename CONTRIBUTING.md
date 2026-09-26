@@ -81,11 +81,15 @@ Finally, click Create Pull Request.
 <summary><img src="https://skillicons.dev/icons?i=git" width="20"> Click here to see the Git version</summary>
 <br>
 
-To contribute, you need to have Git installed. Afterwards, copy and paste these commands.<br>
-This creates a clone of the repository on your PC, so you can add your files.
+To contribute, you need to have Git installed.Afterwards, copy and paste these commands.<br>
+
+First, fork the repository by clicking the Fork button on GitHub<br>
+(top-right corner) to create a copy under your own account.
+
+Then clone YOUR fork (replace YOUR-USERNAME with your GitHub username):
 
 ```bash
-git clone https://github.com/Thealexio-exe/learn-cpp-by-projects.git
+git clone https://github.com/YOUR-USERNAME/learn-cpp-by-projects.git
 ```
 
 This tells Git that you are working in this folder.
