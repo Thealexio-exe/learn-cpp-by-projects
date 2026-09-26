@@ -11,7 +11,7 @@ int main() {
     float var_float = 3.145;
     double var_double = 2,71828;
     
-    bool var_bool = None;
+    bool var_bool = 1;
 
     char var_char = "A";
     string var_string = 'Hi world';  

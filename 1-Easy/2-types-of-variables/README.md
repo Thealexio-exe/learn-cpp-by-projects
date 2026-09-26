@@ -33,6 +33,21 @@ In questo programma ho elencato la maggior parte delle tipologie di variabili co
 <details>
 <summary>Clicca per vedere le soluzioni</summary>
 
+Il primo errore in questo programma si trova nelle variabili di tipo *decimale*:
+
+```cpp
+    double var_double = 2,71828; --> double var_double = 2.71828;
+```
+
+come puoi notare ho già coretto l'esercizio, l'errore e in se è semplice, non usare la `,` ma il `.` per i numeri decimali <br>
+Il secondo invece si trova nelle variabili di tipo *bool*:
+
+```cpp
+    bool var_bool = 1; --> bool var_bool = false;
+```
+
+l'errore è semplice, le variabili di tipo *bool* accettano solo due valori `true` e `false`
+
 🛠️ working progress 🛠️
 
 </details>
