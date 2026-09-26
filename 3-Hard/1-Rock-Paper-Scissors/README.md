@@ -43,7 +43,7 @@ Here are the solutions for the [`fix_me.cpp`](./fix_me.cpp) file. They are divid
 <details>
 <summary>Solutions 1</summary>
 
-Okey, let’s reason step by step. The first error is in the functions [`void Pc_choice()`](./fix_me.cpp#L44) and [`void logic()`](./fix_me.cpp#L53).
+The first error is in the functions [`void Pc_choice()`](./fix_me.cpp#L44) and [`void logic()`](./fix_me.cpp#L53).
 
 In these two functions the type `void` is used, but `void` means “nothing”. From its meaning you can already understand the mistake: the function does not return anything.
 To fix this error you just need to replace `void` with `string`, because we want the function to return text as a result.
@@ -154,7 +154,7 @@ Qui ti lascio subito le soluzioni del file [`fix_me.cpp`](./fix_me.cpp). Le ho d
 <details>
 <summary>Soluzioni 1</summary>
 
-Okey, ragioniamo insieme passo passo. Il primo errore si trova nelle funzioni [`void Pc_choice()`](./fix_me.cpp#L44) e [`void logic()`](./fix_me.cpp#L53).
+Il primo errore si trova nelle funzioni [`void Pc_choice()`](./fix_me.cpp#L44) e [`void logic()`](./fix_me.cpp#L53).
 
 In queste due funzioni viene usato il valore `void`, ma `void` significa “nulla”. Proprio dal suo significato si può capire qual è l’errore: la funzione non restituisce niente.
 Per correggere l’errore basta sostituire `void` con `string`, perché noi vogliamo che come risultato venga restituito del testo.
