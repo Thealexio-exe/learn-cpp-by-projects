@@ -48,6 +48,12 @@ Il secondo invece si trova nelle variabili di tipo *bool*:
 
 l'errore è semplice, le variabili di tipo *bool* accettano solo due valori `true` e `false`
 
-🛠️ working progress 🛠️
+Gli ultimi errori si trovano nelle variabili di tipo *char* e *string*
 
+```cpp
+    char var_char = "A"; --> char var_char = 'A';
+    string var_string = 'Hi world'; --> string var_string = "Hi world";
+```
+
+l'errore è semplice, per le variabili di tipo *char* si usa per intestarle `'` mentre per i tipi *string* si usa `"`
 </details>
