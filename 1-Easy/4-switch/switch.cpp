@@ -2,25 +2,25 @@
 
 using namespace std;
 
-// In questo programma introduco l'utilizzo dello switch, un costrutto simile all'if/else.
-// Guarda il README: ho messo la maggior parte delle spiegazioni lì.
-// Nei commenti di questo file spiego principalmente la sintassi.
+// In this program, I'll introduce the use of the switch statement, a construct similar to if/else
+// Check the README: I’ve put most of the explanations there
+// In the comments in this file, I mainly explain the syntax
 
 int main() {
     int day;
 
 
-    // Iniziamo dando un valore a una variabile di tipo int
+    // Let’s start by assigning a value to an int variable
     cout << "Enter a number from 1 to 7: ";
     cin >> day;
 
-    // Lo switch funziona in modo simile a un if, ma controlla il valore di una sola variabile
+    // The switch statement works similarly to an if statement, but it checks the value of a single variable
     switch (day) { 
-        case 1:    // Al posto dell'if usiamo case, seguito dal valore che vogliamo controllare
+        case 1:    // Instead of `if`, we use `case`, followed by the value we want to check
             cout << "Monday" << endl;
-            break; // Questo comando verrà spiegato meglio tra poco, ma per ora basta ricordare questo concetto:
-                   // se "day = 1", allora "case 1" è verificato e viene eseguito il codice al suo interno.
-                   // Senza il break, il programma continuerebbe a eseguire anche i case successivi.
+            break; /* This statement will be explained in more detail shortly, but for now, just remember this concept:
+                      if “day = 1”, then “case 1” is true and the code inside it is executed.
+                      Without the `break`, the program would continue to execute the subsequent `case` statements as well. */
         case 2:
             cout << "Tuesday" << endl;
             break;
