@@ -39,7 +39,7 @@ int main() {
         case 7:
             cout << "Sunday" << endl;
             break;
-        default: // default funziona in modo simile a else: se nessun case corrisponde, viene eseguito questo codice
+        default:  // “default” works similarly to ‘else’: if no “case” matches, this code is executed
             cout << "Error" << endl; 
             break;
     }
