@@ -9,6 +9,7 @@
 ![Status](https://img.shields.io/badge/Status-Maintained-brightgreen)
 ![Version](https://img.shields.io/badge/Version-v4.0-blue)
 ![Code Check](https://github.com/Thealexio-exe/learn-cpp-by-projects/actions/workflows/msbuild.yml/badge.svg)
+![Contributors](https://img.shields.io/github/contributors/Thealexio-exe/learn-cpp-by-projects?style=flat)
 
 ⭐ If you like this project, pls leaving a star!
 
