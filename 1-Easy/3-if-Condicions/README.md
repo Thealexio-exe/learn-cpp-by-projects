@@ -9,6 +9,7 @@
             <td>
                 <img alt="variables" src="https://img.shields.io/badge/-variables-green">
                 <img alt="cin" src="https://img.shields.io/badge/-cout-green">
+                <img alt="logical_operators" src="https://img.shields.io/badge/-logical_operators-yellow">
                 <img alt="if/else" src="https://img.shields.io/badge/-if%2Felse-yellow">
             </td>
         </tr>

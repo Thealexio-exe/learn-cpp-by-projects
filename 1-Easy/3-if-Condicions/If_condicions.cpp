@@ -23,6 +23,8 @@ int main() {
     The first condition checks: "If all sides are equal, then the triangle is equilateral."
     if you wont, you can simplify this if statement
     */
+
+    // == and && are logical operators; each has a different meaning. I use this link to learn how to use them: https://www.w3schools.com/cpp/cpp_operators_logical.asp
     if (side1 == side2 && side2 == side3 && side3 == side1) {
         cout << "equilateral" << endl;
     }
