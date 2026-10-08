@@ -36,7 +36,7 @@ This repository contains a collection of C++ programs created to help students l
 
 This repository has recently undergone a major overhaul (version 3.0); I am currently fixing the final issues and will soon add a `CONTRIBUTING.md` file. Afterward, I will move on to developing version 4.0, where I plan to add as many programs as possible over time.
 
-Another important thing: all the programs have been written entirely by **[Thealexio](https://github.com/Thealexio-exe)**, while the English translation has been made with the help of AI/translator. If you find translation mistakes or grammatical errors, I apologize. As soon as I have more time to dedicate to this project, I will also review the grammar of every file.
+Another important thing: all the programs have been written entirely by **[Thealexio](https://github.com/Thealexio-exe)**, while the English translation has been made with the help of [DeepL](https://www.deepl.com/it/translator). If you find translation mistakes or grammatical errors, I apologize.
 
 Finally, the goal is to create a collection of projects with exercises and explanations. If you also have some simple C++ projects, I would really appreciate it if you contributed to this repository and helped expand the project.
 
@@ -119,7 +119,7 @@ Questa repository contiene una raccolta di programmi in C++, con lo scopo di aiu
 
 Al momento questa repository ha ricevuto un grosso rework la `3.0`, sto sistemando gli ultimi problemi e fra poco aggiungerò un file `CONTRIBUTING.md`, succesivamente passero alla programmazione della versione `4.0` dove aggiungerò nel tempo più programmi possibili.
 
-Un'altra cosa importante: i programmi sono stati scritti interamente da **[Thealexio](https://github.com/Thealexio-exe)**, mentre la traduzione in inglese è stata fatta con l'aiuto dell'AI/traduttore. Se ci sono problemi o errori nelle traduzioni mi scuso, oltre tutto con l'ultimo aggioramento la `v2.0` i commenti in italiano sono stati rimossi per riddure il numero dei file, se non sai l'inglese usa il traduttore.
+Un'altra cosa importante: i programmi sono stati scritti interamente da **[Thealexio](https://github.com/Thealexio-exe)**, mentre la traduzione in inglese è stata fatta con l'aiuto di [DeepL](https://www.deepl.com/it/translator). Se ci sono problemi o errori nelle traduzioni mi scuso, oltre tutto aggioramento la `v2.0` i commenti in italiano sono stati rimossi per riddure il numero dei file, se non sai l'inglese usa il traduttore.
 
 Infine l'obiettivo è creare una raccolta di progetti con esercizi e spiegazioni. Se avete anche voi dei progetti semplici in Cpp mi farebbe molto piacere se contribuiste a questo progetto cosi da espandere il progetto.
 
