@@ -54,8 +54,7 @@ default:
 
 Remember to always add `default` at the end of a `switch` statement; it is essential in case of an error and is the equivalent of `else`.
 
-> [!NOTE]
-> Finally, if you’re stuck on lines 30–32, there’s an error—that `if` statement is simply **unnecessary**
+> Finally, if you think on lines 30–32 there’s an bug—that `if` statement is simply **unnecessary**, but not wrong
 
 </details> <br>
 
@@ -95,7 +94,6 @@ default:
 
 Ricordati di aggiugnere sempre `default` alla fine di uno `switch`, esso è esenziale in caso di errore è l'equivalente di `else`.
 
-> [!NOTE]
-> Infine se ti stai nella linea 30-32 c'è un errore, semplicemente quell'if è **inutile**
+> Infine se pensi che nella linea 30-32 c'è un errore, semplicemente quell'if è **inutile**, ma non è un errore
 
 </details>
