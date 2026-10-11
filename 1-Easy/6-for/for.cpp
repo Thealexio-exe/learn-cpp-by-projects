@@ -11,8 +11,8 @@ int main() {
     cin >> name;
 
     // Since the logic takes a while to explain in a single comment, I've written everything in the README this time
-    for(int i = 0; i < 5; i++ ) {
-        cout << i ". Your name: " << name << endl;
+    for(int i = 0; i < 5; i++) {
+        cout << i << ". Your name: " << name << endl;
     }
 
     /* OUTPUT:
