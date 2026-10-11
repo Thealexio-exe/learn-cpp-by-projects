@@ -1,6 +1,6 @@
 # Code of Conduct
 
-## Purpose
+## objective
 
 I want this repository to be a welcoming place for learning *C++*. Anyone who participates—whether by submitting a pull request, opening an issue, or leaving a comment—is expected to follow these rules:
 
