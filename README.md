@@ -1,5 +1,3 @@
-# **🛠️ Version 4.0 is starting, I will begin adding programs now. 🛠️**
-
 ![Banner Learn C++ by Projects](./assets/img/banner.png)
 
 ![C++](https://img.shields.io/badge/C%2B%2B-00599C?style=flat&logo=cplusplus&logoColor=white)
@@ -10,7 +8,7 @@
 ![Version](https://img.shields.io/badge/Version-v4.0-blue)
 ![Code Check](https://github.com/Thealexio-exe/learn-cpp-by-projects/actions/workflows/msbuild.yml/badge.svg)
 
-⭐ If you like this project, pls leaving a star!
+⭐ If you like this project, please leave a star!
 
 > ---
 > ## **Language**
