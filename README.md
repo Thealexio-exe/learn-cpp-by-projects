@@ -31,8 +31,6 @@
 
 This repository contains a collection of C++ programs created to help students learn this language. Of course, this repository is only a study resource, so I strongly recommend trying the programs yourself to improve your programming skills.
 
-This repository has recently undergone a major overhaul (version 3.0); I am currently fixing the final issues and will soon add a `CONTRIBUTING.md` file. Afterward, I will move on to developing version 4.0, where I plan to add as many programs as possible over time.
-
 Another important thing: all the programs have been written entirely by **[Thealexio](https://github.com/Thealexio-exe)**, while the English translation has been made with the help of [DeepL](https://www.deepl.com/en/translator). If you find translation mistakes or grammatical errors, I apologize.
 
 Finally, the goal is to create a collection of projects with exercises and explanations. If you also have some simple C++ projects, I would really appreciate it if you contributed to this repository and helped expand the project.
@@ -113,8 +111,6 @@ argenti.projects@gmail.com
 ### **Introduzione**
 
 Questa repository contiene una raccolta di programmi in C++, con lo scopo di aiutare gli studenti a imparare questo linguaggio, ovviamete questa repository e solo un supporto per lo studio, quindi consiglio fortemete l'utilizzo dei vari programmi per migliorare le proprie capacità.
-
-Al momento questa repository ha ricevuto un grosso rework la `3.0`, sto sistemando gli ultimi problemi e fra poco aggiungerò un file `CONTRIBUTING.md`, succesivamente passero alla programmazione della versione `4.0` dove aggiungerò nel tempo più programmi possibili.
 
 Un'altra cosa importante: i programmi sono stati scritti interamente da **[Thealexio](https://github.com/Thealexio-exe)**, mentre la traduzione in inglese è stata fatta con l'aiuto di [DeepL](https://www.deepl.com/it/translator). Se ci sono problemi o errori nelle traduzioni mi scuso, oltre tutto aggioramento la `v2.0` i commenti in italiano sono stati rimossi per riddure il numero dei file, se non sai l'inglese usa il traduttore.
 
