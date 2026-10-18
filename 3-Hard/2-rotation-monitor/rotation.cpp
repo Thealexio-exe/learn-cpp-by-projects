@@ -5,18 +5,12 @@ using namespace std;
 
 int main() {
 	
-	system("color 2f");
-	
-		system("start cmd");
-
-	
-
     DEVMODE dm;
     memset(&dm, 0, sizeof(dm));
     dm.dmSize = sizeof(dm);
 
     if (!EnumDisplaySettings(NULL, ENUM_CURRENT_SETTINGS, &dm)) {
-        cout << "Errore nel leggere le impostazioni dello schermo." << endl;
+        cout << "Error reading the screen settings." << endl;
         return 1;
     }
 
@@ -41,11 +35,11 @@ int main() {
     LONG result = ChangeDisplaySettings(&dm, CDS_UPDATEREGISTRY);
 
     if (result == DISP_CHANGE_SUCCESSFUL) {
-        cout << "Rotazione applicata!" << endl;
+        cout << "Rotation applied!" << endl;
     } else if (result == DISP_CHANGE_RESTART) {
-        cout << "Rotazione applicata, ma è necessario riavviare Windows." << endl;
+        cout << "Rotation has been applied, but you need to restart Windows." << endl;
     } else {
-        cout << "Errore nella rotazione dello schermo. Codice: " << result << endl;
+        cout << "Error rotating the screen. Code: " << result << endl;
     }
 
     return 0;
