@@ -24,7 +24,7 @@ int main() {
         cin >> Input_user;
 
         while (true) {
-            cout << "Secondo Input but enter \'A\': ";
+            cout << "Second Input but enter \'A\': ";
             cin >> input_char;
 
             if (input_char != 'a') {
@@ -33,10 +33,5 @@ int main() {
                 cout << "error" << endl;
             }
         }
-        
-
     }
-    
-    return 0;
-
 }
