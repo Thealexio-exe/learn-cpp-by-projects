@@ -8,6 +8,8 @@
 ![Version](https://img.shields.io/badge/Version-v4.0-blue)
 ![Code Check](https://github.com/Thealexio-exe/learn-cpp-by-projects/actions/workflows/msbuild.yml/badge.svg)
 
+**Unfortunately, I have to reduce the number of updates**
+
 ⭐ If you like this project, please leave a star!
 
 > ---
